@@ -73,7 +73,7 @@ App.Storage = (function () {
 
   function sanitize(raw) {
     if (!raw || typeof raw !== 'object' || typeof raw.user !== 'string' || !raw.user) {
-      throw new Error('Not a valid Anka save file (missing "user").');
+      throw new Error('Keine gültige Anka-Speicherdatei ("user" fehlt).');
     }
     var clean = blank();
     clean.user = raw.user;
@@ -187,7 +187,7 @@ App.Storage = (function () {
     try {
       parsed = JSON.parse(jsonText);
     } catch (e) {
-      throw new Error('That file is not valid JSON.');
+      throw new Error('Diese Datei ist kein gültiges JSON.');
     }
     save = sanitize(parsed); // throws if the shape is wrong
     persist();

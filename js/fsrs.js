@@ -120,13 +120,13 @@ App.FSRS = (function () {
     };
   }
 
-  // Human-readable label for a millisecond gap, e.g. "10m", "3h", "4d".
+  // Human-readable label for a millisecond gap, e.g. "10min", "3h", "4T".
   function formatGap(ms) {
     var min = ms / 60000;
-    if (min < 60) return Math.max(1, Math.round(min)) + 'm';
+    if (min < 60) return Math.max(1, Math.round(min)) + 'min';
     var hours = min / 60;
     if (hours < 24) return Math.round(hours) + 'h';
-    return Math.round(hours / 24) + 'd';
+    return Math.round(hours / 24) + 'T';
   }
 
   // What would happen for each rating? Used for the interval hints on the

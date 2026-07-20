@@ -20,10 +20,10 @@ App.screens.name = (function () {
         '</svg>' +
         '<h1 class="title">Anka</h1>' +
         '<form class="name-form" novalidate>' +
-          '<label class="field-label" for="name-input">Bitte schreiben Sie ihren Namen</label>' +
+          '<label class="field-label" for="name-input">Bitte schreiben Sie Ihren Namen</label>' +
           '<input id="name-input" class="text-input" type="text" maxlength="30" ' +
-                 'autocomplete="off" placeholder="Ihr Namen" required>' +
-          '<button class="btn btn-primary btn-block" type="submit">Start learning</button>' +
+                 'autocomplete="off" placeholder="Ihr Name" required>' +
+          '<button class="btn btn-primary btn-block" type="submit">Los geht&#8217;s</button>' +
         '</form>' +
       '</div>';
 

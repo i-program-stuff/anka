@@ -49,14 +49,16 @@ App.screens.overview = (function () {
   function formatNextDue(ts) {
     var diff = ts - Date.now();
     var dayMs = 24 * 60 * 60 * 1000;
-    var time = new Date(ts).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    if (diff < dayMs) return 'today at ' + time;
-    if (diff < 2 * dayMs) return 'tomorrow at ' + time;
-    return new Date(ts).toLocaleDateString([], { day: 'numeric', month: 'short' });
+    var time = new Date(ts).toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
+    if (diff < dayMs) return 'heute um ' + time + ' Uhr';
+    if (diff < 2 * dayMs) return 'morgen um ' + time + ' Uhr';
+    return new Date(ts).toLocaleDateString('de-DE', { day: 'numeric', month: 'long' });
   }
 
   function tagChip(tag, active) {
-    var label = tag.indexOf('chapter-') === 0 ? tag.replace('chapter-', 'Chapter ') : tag;
+    var label = tag.indexOf('chapter-') === 0
+      ? tag.replace('chapter-', 'Kapitel ')
+      : App.Data.typeLabel(tag);
     return '<button class="chip' + (active ? ' chip-active' : '') + '" ' +
            'data-tag="' + tag + '" aria-pressed="' + active + '">' + label + '</button>';
   }
@@ -90,11 +92,11 @@ App.screens.overview = (function () {
     var reader = new FileReader();
     reader.onload = function () {
       try {
-        if (!window.confirm('Replace your current progress with the imported save?')) return;
+        if (!window.confirm('Aktuellen Fortschritt durch den Import ersetzen?')) return;
         App.Storage.importSave(String(reader.result));
         App.show('overview'); // re-render with the imported data
       } catch (e) {
-        window.alert('Import failed: ' + e.message);
+        window.alert('Import fehlgeschlagen: ' + e.message);
       }
     };
     reader.readAsText(file);
@@ -131,10 +133,10 @@ App.screens.overview = (function () {
 
       /* Stat tiles */
       '<section class="tiles">' +
-        tile(stats.due, 'due now', 'rose') +
-        tile(stats.fresh, 'new cards', 'sky') +
-        tile(stats.learned, 'in review', 'mint') +
-        tile(stats.lapses, 'mistakes', 'peach') +
+        tile(stats.due, 'fällig', 'rose') +
+        tile(stats.fresh, 'neu', 'sky') +
+        tile(stats.learned, 'gelernt', 'mint') +
+        tile(stats.lapses, 'Fehler', 'peach') +
       '</section>' +
 
       /* Collapsible tag filter */
@@ -142,7 +144,7 @@ App.screens.overview = (function () {
         '<summary class="tags-toggle">' +
           '<span class="tags-title">Tags</span>' +
           '<span class="tags-summary">' +
-            (deselected.length === 0 ? 'all shown' : activeCount + ' of ' + App.Data.allTags.length + ' on') +
+            (deselected.length === 0 ? 'alle an' : activeCount + ' von ' + App.Data.allTags.length + ' an') +
           '</span>' +
           '<svg class="tags-chevron" viewBox="0 0 16 16" aria-hidden="true">' +
             '<path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>' +
@@ -150,7 +152,7 @@ App.screens.overview = (function () {
         '</summary>' +
         '<div class="tags-body">' +
           '<div class="tag-group">' +
-            '<span class="tag-group-label">Chapters</span>' +
+            '<span class="tag-group-label">Kapitel</span>' +
             '<div class="tag-chips">' +
               App.Data.chapterTags.map(function (t) {
                 return tagChip(t, deselected.indexOf(t) === -1);
@@ -158,7 +160,7 @@ App.screens.overview = (function () {
             '</div>' +
           '</div>' +
           '<div class="tag-group">' +
-            '<span class="tag-group-label">Types</span>' +
+            '<span class="tag-group-label">Wortarten</span>' +
             '<div class="tag-chips">' +
               App.Data.typeTags.map(function (t) {
                 return tagChip(t, deselected.indexOf(t) === -1);
@@ -172,19 +174,19 @@ App.screens.overview = (function () {
       '<section class="practice-cta">' +
         '<button class="btn btn-primary btn-block btn-big" id="start-btn"' +
           (sessionSize === 0 ? ' disabled' : '') + '>' +
-          (sessionSize > 0 ? 'Practice · ' + sessionSize + ' cards' : 'All caught up') +
+          (sessionSize > 0 ? 'Üben · ' + sessionSize + ' Karten' : 'Alles erledigt') +
         '</button>' +
         (stats.total === 0
-          ? '<p class="hint">No cards match the selected tags.</p>'
+          ? '<p class="hint">Keine Karten passen zu den gewählten Tags.</p>'
           : sessionSize === 0 && stats.nextDue
-            ? '<p class="hint">Next card is due ' + formatNextDue(stats.nextDue) + '.</p>'
+            ? '<p class="hint">Nächste Karte ist ' + formatNextDue(stats.nextDue) + ' fällig.</p>'
             : '') +
       '</section>' +
 
       /* Save management */
       '<section class="save-row">' +
-        '<button class="btn btn-ghost" id="export-btn">Export save</button>' +
-        '<button class="btn btn-ghost" id="import-btn">Import save</button>' +
+        '<button class="btn btn-ghost" id="export-btn">Exportieren</button>' +
+        '<button class="btn btn-ghost" id="import-btn">Importieren</button>' +
         '<input type="file" id="import-input" accept=".json,application/json" hidden>' +
       '</section>';
 

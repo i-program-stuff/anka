@@ -50,8 +50,8 @@ App.screens.practice = (function () {
 
   function chipsHtml(card) {
     var html = '<div class="chips">';
-    html += '<span class="chip-static chip-type">' + card.type + '</span>';
-    html += '<span class="chip-static">Chapter ' + card.chapter + '</span>';
+    html += '<span class="chip-static chip-type">' + App.Data.typeLabel(card.type) + '</span>';
+    html += '<span class="chip-static">Kapitel ' + card.chapter + '</span>';
     if (card.gender) {
       html += '<span class="chip-static chip-gender-' + genderKey(card.gender) + '">' +
               card.gender + '</span>';
@@ -66,7 +66,7 @@ App.screens.practice = (function () {
   function frontHtml(card) {
     return chipsHtml(card) +
       '<div class="card-word">' + card.front + '</div>' +
-      '<div class="card-hint">tap to reveal</div>';
+      '<div class="card-hint">Tippen zum Aufdecken</div>';
   }
 
   function backHtml(card) {
@@ -111,23 +111,23 @@ App.screens.practice = (function () {
     root.innerHTML =
       '<div class="screen screen-practice">' +
         '<header class="practice-top">' +
-          '<button class="btn btn-ghost btn-small" id="quit-btn" aria-label="Back to overview">← Overview</button>' +
+          '<button class="btn btn-ghost btn-small" id="quit-btn" aria-label="Zurück zur Übersicht">← Übersicht</button>' +
           '<div class="progress-wrap" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>' +
           '<span class="progress-text" id="progress-text"></span>' +
         '</header>' +
 
         '<div class="card-stage" id="card-stage">' +
-          '<div class="card-inner" id="card-inner" role="button" tabindex="0" aria-label="Flashcard. Activate to reveal the answer.">' +
+          '<div class="card-inner" id="card-inner" role="button" tabindex="0" aria-label="Karteikarte. Zum Aufdecken aktivieren.">' +
             '<div class="card-face card-front panel" id="card-front"></div>' +
             '<div class="card-face card-back panel" id="card-back"></div>' +
           '</div>' +
         '</div>' +
 
-        '<div class="rating-bar" id="rating-bar" aria-label="Rate your recall">' +
-          ratingBtn(R.AGAIN, 'Again', 'rose') +
-          ratingBtn(R.HARD, 'Hard', 'peach') +
-          ratingBtn(R.GOOD, 'Good', 'mint') +
-          ratingBtn(R.EASY, 'Easy', 'sky') +
+        '<div class="rating-bar" id="rating-bar" aria-label="Wie gut konntest du dich erinnern?">' +
+          ratingBtn(R.AGAIN, 'Nochmal', 'rose') +
+          ratingBtn(R.HARD, 'Schwer', 'peach') +
+          ratingBtn(R.GOOD, 'Gut', 'mint') +
+          ratingBtn(R.EASY, 'Leicht', 'sky') +
         '</div>' +
       '</div>';
 
@@ -266,13 +266,13 @@ App.screens.practice = (function () {
       '<div class="screen screen-center">' +
         '<div class="panel summary-panel">' +
           '<h1 class="title">Gut gemacht!</h1>' +
-          '<p class="subtitle">Session finished</p>' +
+          '<p class="subtitle">Einheit geschafft</p>' +
           '<div class="tiles">' +
-            '<div class="tile tile-mint"><div class="tile-value">' + session.total + '</div><div class="tile-label">cards</div></div>' +
-            '<div class="tile tile-rose"><div class="tile-value">' + session.agains + '</div><div class="tile-label">mistakes</div></div>' +
-            '<div class="tile tile-sky"><div class="tile-value">' + minutes + ' min</div><div class="tile-label">time</div></div>' +
+            '<div class="tile tile-mint"><div class="tile-value">' + session.total + '</div><div class="tile-label">Karten</div></div>' +
+            '<div class="tile tile-rose"><div class="tile-value">' + session.agains + '</div><div class="tile-label">Fehler</div></div>' +
+            '<div class="tile tile-sky"><div class="tile-value">' + minutes + ' Min.</div><div class="tile-label">Zeit</div></div>' +
           '</div>' +
-          '<button class="btn btn-primary btn-block" id="home-btn">Back to overview</button>' +
+          '<button class="btn btn-primary btn-block" id="home-btn">Zurück zur Übersicht</button>' +
         '</div>' +
       '</div>';
 

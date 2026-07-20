@@ -31,12 +31,26 @@ App.Data = (function () {
     });
   }
 
+  // German display labels for the card types (raw data values are English).
+  var TYPE_LABELS = {
+    noun: 'Nomen',
+    verb: 'Verb',
+    adjective: 'Adjektiv',
+    adverb: 'Adverb',
+    phrase: 'Redewendung'
+  };
+
+  function typeLabel(type) {
+    return TYPE_LABELS[type] || type;
+  }
+
   return {
     cards: cards,
     byId: byId,
     allTags: allTags,
     chapterTags: chapterTags,
     typeTags: typeTags,
-    forSelection: forSelection
+    forSelection: forSelection,
+    typeLabel: typeLabel
   };
 })();
