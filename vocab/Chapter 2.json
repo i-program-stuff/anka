@@ -1,0 +1,1004 @@
+[
+  {
+    "front": "to stall / falter",
+    "back": "stocken",
+    "note_id": 1784577083191,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "original file said \"to stunt\" — stocken means to stall/slow down",
+    "example_de": "Das Wirtschaftswachstum stockt seit Monaten.",
+    "example_en": "Economic growth has been stalling for months.",
+    "perfekt": "hat gestockt",
+    "prateritum": "stockte"
+  },
+  {
+    "front": "growth",
+    "back": "das Wachstum",
+    "note_id": 1784577083192,
+    "type": "noun",
+    "gender": "das",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "no plural (abstract noun)",
+    "example_de": "Das Wachstum der Wirtschaft schwächt sich ab.",
+    "example_en": "Economic growth is weakening."
+  },
+  {
+    "front": "energy production",
+    "back": "die Energiegewinnung",
+    "note_id": 1784577083193,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "mostly used in singular",
+    "example_de": "Die Energiegewinnung aus Wind ist umweltfreundlich.",
+    "example_en": "Energy production from wind is environmentally friendly."
+  },
+  {
+    "front": "renewable energies",
+    "back": "die erneuerbaren Energien (nur Pl.)",
+    "note_id": 1784577083194,
+    "type": "noun",
+    "gender": "die",
+    "plural": "nur Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "usually used in plural",
+    "example_de": "Erneuerbare Energien werden immer wichtiger.",
+    "example_en": "Renewable energies are becoming increasingly important."
+  },
+  {
+    "front": "output / emission",
+    "back": "der Ausstoß",
+    "note_id": 1784577083195,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "mostly used in singular; verb: ausstoßen",
+    "example_de": "Der Ausstoß von CO₂ muss sinken.",
+    "example_en": "CO₂ emissions must decrease."
+  },
+  {
+    "front": "greenhouse gas",
+    "back": "das Treibhausgas, -e",
+    "note_id": 1784577083196,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Treibhausgase erwärmen die Atmosphäre.",
+    "example_en": "Greenhouse gases warm the atmosphere."
+  },
+  {
+    "front": "fossil fuels / fossil resources",
+    "back": "die fossilen Ressourcen (nur Pl.)",
+    "note_id": 1784577083197,
+    "type": "noun",
+    "gender": "die",
+    "plural": "nur Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "usually used in plural; sing. die fossile Ressource",
+    "example_de": "Fossile Ressourcen wie Öl werden knapp.",
+    "example_en": "Fossil resources like oil are becoming scarce."
+  },
+  {
+    "front": "geothermal energy",
+    "back": "die Geothermie",
+    "note_id": 1784577083198,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "original file said \"Geothermal\" (adjective) — corrected to the noun meaning",
+    "example_de": "Die Geothermie nutzt die Wärme der Erde.",
+    "example_en": "Geothermal energy uses the heat of the earth."
+  },
+  {
+    "front": "solar energy",
+    "back": "die Solarenergie",
+    "note_id": 1784577083199,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Solarenergie ist eine saubere Energiequelle.",
+    "example_en": "Solar energy is a clean source of energy."
+  },
+  {
+    "front": "wind energy",
+    "back": "die Windenergie",
+    "note_id": 1784577083200,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "An der Küste wird viel Windenergie erzeugt.",
+    "example_en": "A lot of wind energy is generated on the coast."
+  },
+  {
+    "front": "water power / hydropower",
+    "back": "die Wasserkraft",
+    "note_id": 1784577083201,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Wasserkraft liefert seit Jahrhunderten Energie.",
+    "example_en": "Water power has supplied energy for centuries."
+  },
+  {
+    "front": "biogas",
+    "back": "das Biogas, -e",
+    "note_id": 1784577083202,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Biogas entsteht aus organischen Abfällen.",
+    "example_en": "Biogas is produced from organic waste."
+  },
+  {
+    "front": "to regenerate / recuperate",
+    "back": "sich regenerieren",
+    "note_id": 1784577083203,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "reflexive",
+    "example_de": "Nach dem Sport muss sich der Körper regenerieren.",
+    "example_en": "After sport, the body has to regenerate.",
+    "perfekt": "hat sich regeneriert",
+    "prateritum": "regenerierte sich"
+  },
+  {
+    "front": "the task force / working group",
+    "back": "die Arbeitsgruppe, -n",
+    "note_id": 1784577083204,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Arbeitsgruppe diskutiert über Nachhaltigkeit.",
+    "example_en": "The task force is discussing sustainability."
+  },
+  {
+    "front": "sustainability",
+    "back": "die Nachhaltigkeit",
+    "note_id": 1784577083205,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "no plural (abstract noun)",
+    "example_de": "Nachhaltigkeit spielt im Alltag eine große Rolle.",
+    "example_en": "Sustainability plays a big role in everyday life."
+  },
+  {
+    "front": "announcement / notice (posted)",
+    "back": "der Aushang, ¨-e",
+    "note_id": 1784577083206,
+    "type": "noun",
+    "gender": "der",
+    "plural": "¨-e",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "plural: die Aushänge",
+    "example_de": "Der Aushang am Schwarzen Brett informiert über den Termin.",
+    "example_en": "The notice on the bulletin board informs about the date."
+  },
+  {
+    "front": "to bring in / contribute",
+    "back": "einbringen",
+    "note_id": 1784577083207,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "separable; often reflexive: sich einbringen (to get involved)",
+    "example_de": "Jeder soll seine Ideen in die Diskussion einbringen.",
+    "example_en": "Everyone should bring their ideas into the discussion.",
+    "perfekt": "hat eingebracht",
+    "prateritum": "brachte ein"
+  },
+  {
+    "front": "request / matter / cause / concern",
+    "back": "das Anliegen, -",
+    "note_id": 1784577083208,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "plural unchanged: die Anliegen",
+    "example_de": "Ihr Anliegen wurde von der Gruppe ernst genommen.",
+    "example_en": "Her concern was taken seriously by the group."
+  },
+  {
+    "front": "to refer to",
+    "back": "verweisen auf (+ Akk.)",
+    "note_id": 1784577083209,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "irregular: verwies, hat verwiesen",
+    "example_de": "Der Experte verwies auf aktuelle Studien.",
+    "example_en": "The expert referred to current studies.",
+    "perfekt": "hat verwiesen",
+    "prateritum": "verwies"
+  },
+  {
+    "front": "as is known",
+    "back": "bekanntlich",
+    "note_id": 1784577083210,
+    "type": "adverb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adverb"
+    ],
+    "notes": "",
+    "example_de": "Bekanntlich steigen die Temperaturen weltweit.",
+    "example_en": "As is known, temperatures are rising worldwide."
+  },
+  {
+    "front": "to notice / become aware of something",
+    "back": "mitbekommen",
+    "note_id": 1784577083211,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "separable; irregular like bekommen",
+    "example_de": "Hast du mitbekommen, dass der Termin verschoben wurde?",
+    "example_en": "Did you notice that the appointment was postponed?",
+    "perfekt": "hat mitbekommen",
+    "prateritum": "bekam mit"
+  },
+  {
+    "front": "to find something indispensable",
+    "back": "unabdingbar finden",
+    "note_id": 1784577083212,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "original file said \"indisposable\" — corrected to indispensable",
+    "example_de": "Viele finden eine schnelle Energiewende unabdingbar.",
+    "example_en": "Many find a rapid energy transition indispensable."
+  },
+  {
+    "front": "to be essential",
+    "back": "unerlässlich sein",
+    "note_id": 1784577083213,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "adjective + sein",
+    "example_de": "Für den Klimaschutz ist internationale Zusammenarbeit unerlässlich.",
+    "example_en": "International cooperation is essential for climate protection."
+  },
+  {
+    "front": "the must",
+    "back": "das Muss",
+    "note_id": 1784577083214,
+    "type": "noun",
+    "gender": "das",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "nominalized verb (müssen)",
+    "example_de": "Klimaschutz ist heute ein Muss.",
+    "example_en": "Climate protection is a must today."
+  },
+  {
+    "front": "ideally",
+    "back": "idealerweise",
+    "note_id": 1784577083215,
+    "type": "adverb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adverb"
+    ],
+    "notes": "",
+    "example_de": "Idealerweise decken wir unseren Strom komplett aus Erneuerbaren.",
+    "example_en": "Ideally, we cover our electricity entirely from renewables."
+  },
+  {
+    "front": "readiness / willingness",
+    "back": "die Bereitschaft",
+    "note_id": 1784577083216,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "mostly used in singular",
+    "example_de": "Die Bereitschaft zu sparen ist groß.",
+    "example_en": "The willingness to save is great."
+  },
+  {
+    "front": "to announce",
+    "back": "ankündigen",
+    "note_id": 1784577083217,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Die Regierung kündigte neue Klimagesetze an.",
+    "example_en": "The government announced new climate laws.",
+    "perfekt": "hat angekündigt",
+    "prateritum": "kündigte an"
+  },
+  {
+    "front": "prompt(ly) / timely",
+    "back": "zeitnah",
+    "note_id": 1784577083218,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adjective"
+    ],
+    "notes": "also used as adverb",
+    "example_de": "Die Probleme müssen zeitnah gelöst werden.",
+    "example_en": "The problems must be solved promptly."
+  },
+  {
+    "front": "need for action",
+    "back": "der Handlungsbedarf",
+    "note_id": 1784577083219,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "mostly used in singular",
+    "example_de": "Beim Klimaschutz gibt es großen Handlungsbedarf.",
+    "example_en": "There is a great need for action on climate protection."
+  },
+  {
+    "front": "uncertainty / lack of clarity",
+    "back": "die Unklarheit, -en",
+    "note_id": 1784577083220,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Es herrscht noch Unklarheit über die Kosten.",
+    "example_en": "There is still uncertainty about the costs."
+  },
+  {
+    "front": "to decompose / disintegrate",
+    "back": "zersetzen",
+    "note_id": 1784577083221,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "also reflexive: sich zersetzen",
+    "example_de": "Plastik zersetzt sich nur sehr langsam.",
+    "example_en": "Plastic decomposes very slowly.",
+    "perfekt": "hat zersetzt",
+    "prateritum": "zersetzte"
+  },
+  {
+    "front": "inexhaustible / never runs out",
+    "back": "unerschöpflich",
+    "note_id": 1784577083222,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adjective"
+    ],
+    "notes": "opposite: erschöpflich",
+    "example_de": "Sonnenenergie ist praktisch unerschöpflich.",
+    "example_en": "Solar energy is practically inexhaustible."
+  },
+  {
+    "front": "climate change",
+    "back": "der Klimawandel",
+    "note_id": 1784577083223,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "no plural",
+    "example_de": "Der Klimawandel bedroht viele Tierarten.",
+    "example_en": "Climate change threatens many animal species."
+  },
+  {
+    "front": "to transform / convert (change on the inside)",
+    "back": "umwandeln",
+    "note_id": 1784577083224,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "separable; etw. in etw. (Akk.) umwandeln",
+    "example_de": "Die Fabrik wandelt Abfall in Energie um.",
+    "example_en": "The factory converts waste into energy.",
+    "perfekt": "hat umgewandelt",
+    "prateritum": "wandelte um"
+  },
+  {
+    "front": "the reduction",
+    "back": "die Reduktion, -en",
+    "note_id": 1784577083225,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Eine Reduktion des Ausstoßes ist nötig.",
+    "example_en": "A reduction of emissions is necessary."
+  },
+  {
+    "front": "the extension / expansion",
+    "back": "der Ausbau",
+    "note_id": 1784577083226,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "typo in file fixed (Aussbau → Ausbau)",
+    "example_de": "Der Ausbau der Solarenergie geht zu langsam.",
+    "example_en": "The expansion of solar energy is too slow."
+  },
+  {
+    "front": "biodegradable",
+    "back": "abbaubar",
+    "note_id": 1784577083227,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adjective"
+    ],
+    "notes": "literally: decomposable; biologisch abbaubar = biodegradable",
+    "example_de": "Diese Tüten sind biologisch abbaubar.",
+    "example_en": "These bags are biodegradable."
+  },
+  {
+    "front": "to filter out",
+    "back": "herausfiltern",
+    "note_id": 1784577083228,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Das System filtert Schadstoffe aus der Luft heraus.",
+    "example_en": "The system filters pollutants out of the air.",
+    "perfekt": "hat herausgefiltert",
+    "prateritum": "filterte heraus"
+  },
+  {
+    "front": "novel / new type of",
+    "back": "neuartig",
+    "note_id": 1784577083229,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Die neuartige Folie zersetzt sich schnell.",
+    "example_en": "The novel type of foil decomposes quickly."
+  },
+  {
+    "front": "under natural conditions",
+    "back": "unter natürlichen Bedingungen",
+    "note_id": 1784577083230,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "ASCII umlauts in file fixed (Natuerlichen → natürlichen)",
+    "example_de": "Unter natürlichen Bedingungen zerfällt das Material in Wochen.",
+    "example_en": "Under natural conditions the material disintegrates within weeks."
+  },
+  {
+    "front": "promotion / funding / subsidy",
+    "back": "die Förderung, -en",
+    "note_id": 1784577083231,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "ASCII umlaut in file fixed (Foerderung → Förderung)",
+    "example_de": "Die Förderung von Solarpanels wurde erhöht.",
+    "example_en": "The subsidy for solar panels was increased."
+  },
+  {
+    "front": "immediate(ly)",
+    "back": "umgehend",
+    "note_id": 1784577083232,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adjective"
+    ],
+    "notes": "also used as adverb",
+    "example_de": "Wir brauchen eine umgehende Lösung.",
+    "example_en": "We need an immediate solution."
+  },
+  {
+    "front": "to disintegrate / decay",
+    "back": "zerfallen",
+    "note_id": 1784577083233,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "irregular: zerfällt, zerfiel, ist zerfallen",
+    "example_de": "Das alte Gebäude zerfällt langsam.",
+    "example_en": "The old building is slowly disintegrating.",
+    "perfekt": "ist zerfallen",
+    "prateritum": "zerfiel"
+  },
+  {
+    "front": "to coordinate (with each other)",
+    "back": "sich abstimmen",
+    "note_id": 1784577083234,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "reflexive, separable; sich mit jdm. abstimmen",
+    "example_de": "Die Abteilungen müssen sich besser abstimmen.",
+    "example_en": "The departments need to coordinate better.",
+    "perfekt": "hat sich abgestimmt",
+    "prateritum": "stimmte sich ab"
+  },
+  {
+    "front": "ancestors",
+    "back": "die Ahnen (nur Pl.)",
+    "note_id": 1784577083235,
+    "type": "noun",
+    "gender": "die",
+    "plural": "nur Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "plural-only in this meaning",
+    "example_de": "Unsere Ahnen lebten im Einklang mit der Natur.",
+    "example_en": "Our ancestors lived in harmony with nature."
+  },
+  {
+    "front": "descendant",
+    "back": "der Nachkomme, -n",
+    "note_id": 1784577083236,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-n",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "weak noun (n-declension); fem.: die Nachkommin, -nen",
+    "example_de": "Wir müssen an unsere Nachkommen denken.",
+    "example_en": "We must think of our descendants."
+  },
+  {
+    "front": "the origin / root",
+    "back": "die Wurzel, -n",
+    "note_id": 1784577083237,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "literal (plant) and figurative (origin)",
+    "example_de": "Die Wurzel des Problems liegt im Konsum.",
+    "example_en": "The root of the problem lies in consumption."
+  },
+  {
+    "front": "original / ancient / initial",
+    "back": "ursprünglich",
+    "note_id": 1784577083238,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "adjective"
+    ],
+    "notes": "related noun: der Ursprung",
+    "example_de": "Der ursprüngliche Plan war anders.",
+    "example_en": "The original plan was different."
+  },
+  {
+    "front": "to be exhausted",
+    "back": "erschöpft sein",
+    "note_id": 1784577083239,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "adjective + sein",
+    "example_de": "Nach der Diskussion waren alle erschöpft.",
+    "example_en": "After the discussion everyone was exhausted."
+  },
+  {
+    "front": "to be available / in existence",
+    "back": "vorhanden sein",
+    "note_id": 1784577083240,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "adjective + sein",
+    "example_de": "Genug Ressourcen sind vorhanden.",
+    "example_en": "Enough resources are available."
+  },
+  {
+    "front": "to invest in",
+    "back": "investieren in (+ Akk.)",
+    "note_id": 1784577083241,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Die Stadt investiert in Windenergie.",
+    "example_en": "The city is investing in wind energy.",
+    "perfekt": "hat investiert",
+    "prateritum": "investierte"
+  },
+  {
+    "front": "to sound plausible",
+    "back": "plausibel klingen",
+    "note_id": 1784577083242,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "",
+    "example_de": "Sein Argument klingt plausibel.",
+    "example_en": "His argument sounds plausible."
+  },
+  {
+    "front": "to take a shortsighted view of something",
+    "back": "etwas kurzsichtig betrachten",
+    "note_id": 1784577083243,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "",
+    "example_de": "Man darf das Problem nicht kurzsichtig betrachten.",
+    "example_en": "One must not take a shortsighted view of the problem."
+  },
+  {
+    "front": "to have/show an added value",
+    "back": "einen Mehrwert zeigen/haben",
+    "note_id": 1784577083244,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "der Mehrwert, -e",
+    "example_de": "Die neue Technologie hat einen klaren Mehrwert.",
+    "example_en": "The new technology has a clear added value."
+  },
+  {
+    "front": "the here and now",
+    "back": "das Hier und Jetzt",
+    "note_id": 1784577083245,
+    "type": "noun",
+    "gender": "das",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "fixed nominalized expression",
+    "example_de": "Viele denken nur an das Hier und Jetzt.",
+    "example_en": "Many people only think of the here and now."
+  },
+  {
+    "front": "distance",
+    "back": "die Ferne",
+    "note_id": 1784577083246,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "mostly used in singular",
+    "example_de": "In der Ferne sieht man Windräder.",
+    "example_en": "In the distance you can see wind turbines."
+  },
+  {
+    "front": "to live in harmony with nature",
+    "back": "im Einklang mit der Natur leben",
+    "note_id": 1784577083247,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "idiom: im Einklang mit etw. (Dat.) stehen/leben",
+    "example_de": "Früher lebten die Menschen im Einklang mit der Natur.",
+    "example_en": "In the past people lived in harmony with nature."
+  },
+  {
+    "front": "the solar system",
+    "back": "das Sonnensystem, -e",
+    "note_id": 1784577083248,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Das Sonnensystem besteht aus acht Planeten.",
+    "example_en": "The solar system consists of eight planets."
+  },
+  {
+    "front": "data analysis / evaluation",
+    "back": "die Datenauswertung, -en",
+    "note_id": 1784577083249,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Datenauswertung zeigt klare Trends.",
+    "example_en": "The data analysis shows clear trends."
+  },
+  {
+    "front": "to make enquiries / do research",
+    "back": "Nachforschungen anstellen",
+    "note_id": 1784577083250,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "phrase"
+    ],
+    "notes": "die Nachforschung, -en",
+    "example_de": "Wir müssen weitere Nachforschungen anstellen.",
+    "example_en": "We need to make further enquiries."
+  },
+  {
+    "front": "to destroy",
+    "back": "zerstören",
+    "note_id": 1784577083251,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 2,
+    "tags": [
+      "chapter-2",
+      "verb"
+    ],
+    "notes": "related noun: die Zerstörung",
+    "example_de": "Der Sturm zerstörte viele Häuser.",
+    "example_en": "The storm destroyed many houses.",
+    "perfekt": "hat zerstört",
+    "prateritum": "zerstörte"
+  }
+]

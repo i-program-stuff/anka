@@ -1,0 +1,646 @@
+/* =========================================================================
+ * Anka — dark pastel "nursery" theme.
+ *
+ * Sections:
+ *   1. Design tokens (colors, radii, shadows)
+ *   2. Base / reset
+ *   3. Layout primitives (screens, panels)
+ *   4. Typography
+ *   5. Buttons & chips
+ *   6. Stat tiles
+ *   7. Overview screen
+ *   8. Practice screen (flashcard flip, rating bar, progress)
+ *   9. Name & summary screens
+ *  10. Responsive tweaks & accessibility
+ * ========================================================================= */
+
+/* ----- 1. Design tokens --------------------------------------------------- */
+:root {
+  /* Surfaces: deep plum-charcoal, layered softly */
+  --bg:        #1b1826;
+  --surface:   #241f33;
+  --surface-2: #2d2740;
+  --line:      #3a3350;
+
+  /* Text */
+  --ink:       #f0ebf7;
+  --ink-dim:   #a89ec0;
+
+  /* Pastel accents (nursery palette) */
+  --rose:  #f3c1d4;
+  --peach: #f4d3b3;
+  --butter:#f3e6b8;
+  --mint:  #bce6cf;
+  --sky:   #bcd8f2;
+  --lilac: #d9cbef;
+
+  /* Dark text used *on* pastel fills */
+  --on-pastel: #2c2438;
+
+  --radius: 22px;
+  --radius-small: 14px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  --font: 'Quicksand', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* ----- 2. Base / reset ----------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(217, 203, 239, 0.07), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(188, 230, 207, 0.06), transparent 60%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-weight: 500;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button { font-family: inherit; }
+
+/* ----- 3. Layout primitives ------------------------------------------------- */
+.app {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: max(20px, env(safe-area-inset-top)) 4px 28px;
+  gap: 18px;
+}
+
+.screen-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* ----- 4. Typography --------------------------------------------------------- */
+.title {
+  margin: 0;
+  font-size: clamp(2rem, 7vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.subtitle {
+  margin: 4px 0 0;
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+}
+
+.greeting {
+  margin: 0;
+  font-size: clamp(1.5rem, 5.5vw, 2rem);
+  font-weight: 700;
+}
+
+.accent { color: var(--lilac); }
+
+.hint {
+  margin: 10px 4px 0;
+  color: var(--ink-dim);
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.moon {
+  width: 56px;
+  height: 56px;
+  color: var(--butter);
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.moon-small {
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+/* ----- 5. Buttons & chips ------------------------------------------------------ */
+.btn {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.12s ease, background 0.12s ease;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.btn:active { transform: scale(0.97); }
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+
+.btn-primary {
+  background: var(--lilac);
+  color: var(--on-pastel);
+}
+
+.btn-primary:hover:not(:disabled) { filter: brightness(1.07); }
+
+.btn-ghost {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--ink-dim);
+}
+
+.btn-ghost:hover { color: var(--ink); border-color: var(--ink-dim); }
+
+.btn-block { width: 100%; }
+
+.btn-big {
+  padding: 17px 22px;
+  font-size: 1.12rem;
+}
+
+.btn-small { padding: 8px 14px; font-size: 0.9rem; }
+
+/* Toggle chips (chapter filter) */
+.chip {
+  border: 1.5px solid var(--line);
+  background: transparent;
+  color: var(--ink-dim);
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  touch-action: manipulation;
+}
+
+.chip-active {
+  background: var(--lilac);
+  border-color: var(--lilac);
+  color: var(--on-pastel);
+}
+
+/* Static chips on flashcards (type / chapter / gender) */
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chip-static {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--ink-dim);
+}
+
+.chip-gender-der { background: rgba(188, 216, 242, 0.18); color: var(--sky); }
+.chip-gender-die { background: rgba(243, 193, 212, 0.16); color: var(--rose); }
+.chip-gender-das { background: rgba(188, 230, 207, 0.16); color: var(--mint); }
+.chip-gender-mix { background: rgba(217, 203, 239, 0.18); color: var(--lilac); }
+
+/* ----- 6. Stat tiles ----------------------------------------------------------- */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  padding: 14px 8px 12px;
+  text-align: center;
+}
+
+.tile-value {
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.tile-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-top: 2px;
+}
+
+.tile-rose  .tile-value { color: var(--rose); }
+.tile-peach .tile-value { color: var(--peach); }
+.tile-mint  .tile-value { color: var(--mint); }
+.tile-sky   .tile-value { color: var(--sky); }
+
+/* ----- 7. Overview screen -------------------------------------------------------- */
+.screen-overview { position: relative; }
+
+/* Keep real content above the decorative stars */
+.screen-overview > *:not(.stars) { position: relative; z-index: 1; }
+
+/* Tiny floating stars (decorative, CSS-only animation) */
+.stars {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  animation: star-drift var(--drift, 10s) ease-in-out var(--delay, 0s) infinite alternate;
+}
+
+.star::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--star-color, var(--butter));
+  /* soft 4-point sparkle */
+  clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%);
+  opacity: 0.3;
+  animation: star-twinkle var(--twinkle, 4s) ease-in-out var(--delay, 0s) infinite;
+}
+
+@keyframes star-drift {
+  from { transform: translate(0, 0); }
+  to   { transform: translate(7px, -24px); }
+}
+
+@keyframes star-twinkle {
+  0%, 100% { opacity: 0.12; transform: scale(0.7) rotate(0deg); }
+  50%      { opacity: 0.55; transform: scale(1) rotate(25deg); }
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 6px 4px 0;
+}
+
+/* Collapsible tag filter */
+.tags-field {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  overflow: hidden;
+}
+
+.tags-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 13px 18px;
+  cursor: pointer;
+  list-style: none; /* hide default disclosure triangle */
+  user-select: none;
+  font-weight: 700;
+}
+
+.tags-toggle::-webkit-details-marker { display: none; }
+
+.tags-toggle:hover .tags-title { color: var(--ink); }
+
+.tags-title { color: var(--ink); }
+
+.tags-summary {
+  margin-left: auto;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+}
+
+.tags-chevron {
+  width: 16px;
+  height: 16px;
+  color: var(--ink-dim);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.tags-field[open] .tags-chevron { transform: rotate(180deg); }
+
+.tags-body {
+  padding: 4px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tag-group-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-bottom: 7px;
+}
+
+.tag-chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.practice-cta { margin-top: 4px; }
+
+.save-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+/* ----- 8. Practice screen ---------------------------------------------------------- */
+.screen-practice { gap: 14px; }
+
+.practice-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.progress-wrap {
+  flex: 1;
+  height: 8px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--lilac), var(--sky));
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  min-width: 44px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Flashcard */
+.card-stage {
+  flex: 1;
+  min-height: 340px;
+  perspective: 1400px;
+  position: relative;
+}
+
+.card-inner {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.35, 0.15, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+}
+
+.card-inner.flipped { transform: rotateY(180deg); }
+
+/* Used when switching cards: snap to the front instantly so the back face
+   (already holding the next card's answer) is never animated into view. */
+.card-inner.no-flip { transition: none; }
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 26px 22px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.card-back { transform: rotateY(180deg); }
+
+.card-word {
+  font-size: clamp(1.35rem, 5vw, 1.9rem);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.card-back .card-word { color: var(--lilac); }
+
+.card-hint {
+  color: var(--ink-dim);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.card-notes {
+  color: var(--butter);
+  font-size: 0.9rem;
+  background: rgba(243, 230, 184, 0.08);
+  border-radius: var(--radius-small);
+  padding: 8px 14px;
+}
+
+.verb-forms {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--surface-2);
+  border-radius: var(--radius-small);
+  padding: 10px 16px;
+}
+
+.verb-forms b { color: var(--ink-dim); font-weight: 600; margin-right: 4px; }
+
+.card-example {
+  border-top: 1px dashed var(--line);
+  padding-top: 14px;
+  max-width: 480px;
+}
+
+.example-de { margin: 0; font-size: 1rem; font-style: italic; }
+.example-en { margin: 6px 0 0; font-size: 0.88rem; color: var(--ink-dim); }
+
+/* Rating bar */
+.rating-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  opacity: 0.35;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.rating-bar.enabled {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.rating-btn {
+  position: relative;
+  border: none;
+  border-radius: var(--radius-small);
+  padding: 12px 6px 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  color: var(--on-pastel);
+  transition: transform 0.12s ease, filter 0.12s ease;
+  touch-action: manipulation;
+}
+
+.rating-key {
+  position: absolute;
+  top: 5px;
+  right: 9px;
+  font-family: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+  opacity: 0.55;
+}
+
+.rating-btn:active { transform: scale(0.95); }
+.rating-btn:hover { filter: brightness(1.06); }
+
+.rating-rose  { background: var(--rose); }
+.rating-peach { background: var(--peach); }
+.rating-mint  { background: var(--mint); }
+.rating-sky   { background: var(--sky); }
+
+.rating-label { font-weight: 700; font-size: 1rem; }
+
+.rating-interval {
+  font-size: 0.75rem;
+  font-weight: 600;
+  opacity: 0.75;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ----- 9. Name & summary screens ------------------------------------------------- */
+.welcome-panel,
+.summary-panel {
+  width: 100%;
+  max-width: 420px;
+  padding: 34px 28px 28px;
+  text-align: center;
+}
+
+.name-form {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.field-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+}
+
+.text-input {
+  background: var(--surface-2);
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-small);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 13px 16px;
+  outline: none;
+  transition: border-color 0.15s ease;
+  width: 100%;
+}
+
+.text-input:focus { border-color: var(--lilac); }
+
+.text-input.invalid { border-color: var(--rose); }
+
+.summary-panel .tiles {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 22px 0;
+}
+
+/* ----- 10. Responsive & accessibility ---------------------------------------------- */
+
+/* Narrow phones: rating buttons 2x2, tiles 2x2 */
+@media (max-width: 420px) {
+  .tiles { grid-template-columns: repeat(2, 1fr); }
+  .summary-panel .tiles { grid-template-columns: repeat(3, 1fr); }
+  .rating-bar { grid-template-columns: repeat(2, 1fr); }
+  .rating-btn { padding: 13px 6px 11px; }
+}
+
+/* Comfortable desktop width gets a touch more air */
+@media (min-width: 720px) {
+  .app { padding: 0 24px; }
+  .screen { padding-top: 40px; }
+}
+
+/* Visible keyboard focus */
+.btn:focus-visible,
+.chip:focus-visible,
+.rating-btn:focus-visible,
+.card-inner:focus-visible,
+.text-input:focus-visible,
+.tags-toggle:focus-visible {
+  outline: 2.5px solid var(--sky);
+  outline-offset: 2px;
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

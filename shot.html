@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- TEMPORARY screenshot harness. Seeds a save and shows the overview. Delete before shipping. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app" class="app"></main>
+  <script src="js/vocab-data.js"></script>
+  <script src="js/fsrs.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/screens/name.js"></script>
+  <script src="js/screens/overview.js"></script>
+  <script src="js/screens/practice.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      var now = Date.now(), DAY = 864e5;
+      var save = { version: 1, user: 'Mila', createdAt: now - 20 * DAY, tags: [], cards: {} };
+      window.VOCAB_DATA.forEach(function (card, i) {
+        if (i < 15) {
+          save.cards[card.note_id] = { stability: 2, difficulty: 5, due: now - 36e5, lastReview: now - 2 * DAY, reps: 3, lapses: i % 3, state: 'review' };
+        } else if (i < 35) {
+          save.cards[card.note_id] = { stability: 4, difficulty: 5, due: now + (i % 9 + 1) * DAY, lastReview: now - DAY, reps: 3, lapses: i % 2, state: 'review' };
+        }
+      });
+      localStorage.setItem('anka-save-v1', JSON.stringify(save));
+      App.show('overview');
+    });
+  </script>
+</body>
+</html>

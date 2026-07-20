@@ -1,0 +1,1554 @@
+[
+  {
+    "front": "tin plate",
+    "back": "das Weißblech, -e",
+    "note_id": 1784577083252,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "article added (missing in file)",
+    "example_de": "Die Dose ist aus Weißblech.",
+    "example_en": "The tin is made of tin plate."
+  },
+  {
+    "front": "the peel / bowl / shell",
+    "back": "die Schale, -n",
+    "note_id": 1784577083253,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Wirf die Schale der Banane in den Biomüll.",
+    "example_en": "Throw the banana peel into the organic waste."
+  },
+  {
+    "front": "container",
+    "back": "der Behälter, -",
+    "note_id": 1784577083254,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "plural unchanged: die Behälter",
+    "example_de": "Der Behälter ist aus Glas.",
+    "example_en": "The container is made of glass."
+  },
+  {
+    "front": "the box / carton",
+    "back": "die Schachtel, -n",
+    "note_id": 1784577083255,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Schachtel ist aus Pappe.",
+    "example_en": "The box is made of cardboard."
+  },
+  {
+    "front": "the container / vessel",
+    "back": "das Gefäß, -e",
+    "note_id": 1784577083256,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Das Gefäß ist mit Wasser gefüllt.",
+    "example_en": "The vessel is filled with water."
+  },
+  {
+    "front": "fabric / material",
+    "back": "der Stoff, -e",
+    "note_id": 1784577083257,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "also: substance",
+    "example_de": "Der Stoff fühlt sich weich an.",
+    "example_en": "The fabric feels soft."
+  },
+  {
+    "front": "envelope / cover",
+    "back": "der Umschlag, ¨-e",
+    "note_id": 1784577083258,
+    "type": "noun",
+    "gender": "der",
+    "plural": "¨-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "plural: die Umschläge; also: book cover",
+    "example_de": "Der Umschlag enthält wichtige Dokumente.",
+    "example_en": "The envelope contains important documents."
+  },
+  {
+    "front": "the foil / film",
+    "back": "die Folie, -n",
+    "note_id": 1784577083259,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Folie schützt das Essen.",
+    "example_en": "The foil protects the food."
+  },
+  {
+    "front": "to break into pieces",
+    "back": "zerbrechen",
+    "note_id": 1784577083260,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "irregular: zerbricht, zerbrach, ist/hat zerbrochen",
+    "example_de": "Die Vase ist beim Umzug zerbrochen.",
+    "example_en": "The vase broke into pieces during the move.",
+    "perfekt": "hat/ist zerbrochen",
+    "prateritum": "zerbrach"
+  },
+  {
+    "front": "fragile",
+    "back": "zerbrechlich",
+    "note_id": 1784577083261,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "from zerbrechen",
+    "example_de": "Glas ist sehr zerbrechlich.",
+    "example_en": "Glass is very fragile."
+  },
+  {
+    "front": "padded / lined",
+    "back": "gefüttert",
+    "note_id": 1784577083262,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "participle of füttern (to line/pad)",
+    "example_de": "Die gefütterte Jacke hält warm.",
+    "example_en": "The padded jacket keeps you warm."
+  },
+  {
+    "front": "stable / sturdy",
+    "back": "stabil",
+    "note_id": 1784577083263,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "opposite: instabil",
+    "example_de": "Der Tisch ist sehr stabil.",
+    "example_en": "The table is very stable."
+  },
+  {
+    "front": "stretchy / elastic",
+    "back": "dehnbar",
+    "note_id": 1784577083264,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "from dehnen (to stretch)",
+    "example_de": "Das Material ist elastisch und dehnbar.",
+    "example_en": "The material is elastic and stretchy."
+  },
+  {
+    "front": "tearable",
+    "back": "zerreißbar",
+    "note_id": 1784577083265,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "from zerreißen (to tear)",
+    "example_de": "Das Papier ist leicht zerreißbar.",
+    "example_en": "The paper tears easily."
+  },
+  {
+    "front": "resistant",
+    "back": "widerstandsfähig",
+    "note_id": 1784577083266,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "related noun: die Widerstandsfähigkeit",
+    "example_de": "Diese Verpackung ist besonders widerstandsfähig.",
+    "example_en": "This packaging is particularly resistant."
+  },
+  {
+    "front": "permeable",
+    "back": "durchlässig",
+    "note_id": 1784577083267,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "durchlässig für + Akk.",
+    "example_de": "Der Stoff ist für Wasser durchlässig.",
+    "example_en": "The fabric is permeable to water."
+  },
+  {
+    "front": "tear-resistant",
+    "back": "reißfest",
+    "note_id": 1784577083268,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Der Faden ist sehr reißfest.",
+    "example_en": "The thread is very tear-resistant."
+  },
+  {
+    "front": "prone to dirt",
+    "back": "schmutzanfällig",
+    "note_id": 1784577083269,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "anfällig = prone/susceptible",
+    "example_de": "Weiße Schuhe sind sehr schmutzanfällig.",
+    "example_en": "White shoes are very prone to dirt."
+  },
+  {
+    "front": "water-repellent",
+    "back": "wasserabweisend",
+    "note_id": 1784577083270,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "abweisend = repellent",
+    "example_de": "Die wasserabweisende Jacke ist perfekt für Regen.",
+    "example_en": "The water-repellent jacket is perfect for rain."
+  },
+  {
+    "front": "transparent / see-through",
+    "back": "durchsichtig",
+    "note_id": 1784577083271,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "opposite: undurchsichtig",
+    "example_de": "Die durchsichtige Folie zeigt den Inhalt.",
+    "example_en": "The transparent foil shows the contents."
+  },
+  {
+    "front": "formable / malleable",
+    "back": "formbar",
+    "note_id": 1784577083272,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "from formen (to shape)",
+    "example_de": "Ton ist ein leicht formbares Material.",
+    "example_en": "Clay is an easily formable material."
+  },
+  {
+    "front": "soft",
+    "back": "weich",
+    "note_id": 1784577083273,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "opposite: hart",
+    "example_de": "Das Kissen ist angenehm weich.",
+    "example_en": "The cushion is pleasantly soft."
+  },
+  {
+    "front": "padded / upholstered",
+    "back": "gepolstert",
+    "note_id": 1784577083274,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "participle of polstern (to pad/upholster)",
+    "example_de": "Der gepolsterte Umschlag schützt den Inhalt.",
+    "example_en": "The padded envelope protects the contents."
+  },
+  {
+    "front": "the decision/resolve to",
+    "back": "der Entschluss (zu), ¨-e",
+    "note_id": 1784577083275,
+    "type": "noun",
+    "gender": "der",
+    "plural": "¨-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "plural: die Entschlüsse; verb: sich entschließen",
+    "example_de": "Der Entschluss zu kündigen fiel ihm schwer.",
+    "example_en": "The decision to resign was difficult for him."
+  },
+  {
+    "front": "to advocate / stand up for",
+    "back": "sich einsetzen für (+ Akk.)",
+    "note_id": 1784577083276,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "reflexive, separable; original file translation (\"to employ for\") corrected",
+    "example_de": "Sie setzt sich für bessere Arbeitsbedingungen ein.",
+    "example_en": "She advocates for better working conditions.",
+    "perfekt": "hat sich eingesetzt",
+    "prateritum": "setzte sich ein"
+  },
+  {
+    "front": "to take part in",
+    "back": "(sich) beteiligen an (+ Dat.)",
+    "note_id": 1784577083277,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "reflexive",
+    "example_de": "Viele Bürger beteiligten sich an der Aktion.",
+    "example_en": "Many citizens took part in the campaign.",
+    "perfekt": "hat (sich) beteiligt",
+    "prateritum": "beteiligte (sich)"
+  },
+  {
+    "front": "to appeal to",
+    "back": "appellieren an (+ Akk.)",
+    "note_id": 1784577083278,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Der Redner appellierte an die Vernunft der Zuhörer.",
+    "example_en": "The speaker appealed to the audience's reason.",
+    "perfekt": "hat appelliert",
+    "prateritum": "appellierte"
+  },
+  {
+    "front": "the appeal",
+    "back": "der Appell, -e",
+    "note_id": 1784577083279,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Sein Appell blieb nicht ungehört.",
+    "example_en": "His appeal did not go unheard."
+  },
+  {
+    "front": "care / diligence",
+    "back": "die Sorgfalt",
+    "note_id": 1784577083280,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "no plural (abstract noun)",
+    "example_de": "Die Arbeit erfordert große Sorgfalt.",
+    "example_en": "The work requires great care."
+  },
+  {
+    "front": "careful(ly)",
+    "back": "sorgfältig",
+    "note_id": 1784577083281,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "also used as adverb; typo in file fixed (Carefull-ly)",
+    "example_de": "Sie arbeitet sehr sorgfältig.",
+    "example_en": "She works very carefully."
+  },
+  {
+    "front": "reliability / dependability",
+    "back": "die Verlässlichkeit",
+    "note_id": 1784577083282,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "adjective: verlässlich",
+    "example_de": "Verlässlichkeit ist im Beruf sehr wichtig.",
+    "example_en": "Reliability is very important in a job."
+  },
+  {
+    "front": "occupational / work-related",
+    "back": "berufsbedingt",
+    "note_id": 1784577083283,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "der Beruf + bedingt (caused by)",
+    "example_de": "Er ist berufsbedingt viel unterwegs.",
+    "example_en": "He travels a lot for work-related reasons."
+  },
+  {
+    "front": "behavioural pattern",
+    "back": "das Verhaltensmuster, -",
+    "note_id": 1784577083284,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "article added (missing in file); plural unchanged: die Verhaltensmuster",
+    "example_de": "Verhaltensmuster entstehen oft in der Kindheit.",
+    "example_en": "Behavioural patterns often develop in childhood."
+  },
+  {
+    "front": "to cope with / overcome",
+    "back": "bewältigen",
+    "note_id": 1784577083285,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "also in chapter 1 (etw. bewältigen)",
+    "example_de": "Stress lässt sich mit Sport gut bewältigen.",
+    "example_en": "Stress can be coped with well through sport.",
+    "perfekt": "hat bewältigt",
+    "prateritum": "bewältigte"
+  },
+  {
+    "front": "to contain a core of truth",
+    "back": "einen wahren Kern haben",
+    "note_id": 1784577083286,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "idiom",
+    "example_de": "Jedes Gerücht hat einen wahren Kern.",
+    "example_en": "Every rumour contains a core of truth."
+  },
+  {
+    "front": "anecdote",
+    "back": "die Anekdote, -n",
+    "note_id": 1784577083287,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Der Redner erzählte eine lustige Anekdote.",
+    "example_en": "The speaker told a funny anecdote."
+  },
+  {
+    "front": "stocks / supplies / provisions",
+    "back": "der Vorrat, ¨-e",
+    "note_id": 1784577083288,
+    "type": "noun",
+    "gender": "der",
+    "plural": "¨-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "plural: die Vorräte",
+    "example_de": "Der Vorrat an Nudeln reicht noch eine Woche.",
+    "example_en": "The stock of pasta will last another week."
+  },
+  {
+    "front": "self-sufficient person",
+    "back": "der/die Selbstversorger/in, -/innen",
+    "note_id": 1784577083289,
+    "type": "noun",
+    "gender": "der/die",
+    "plural": "-/innen",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "typo in file fixed (Selbsversorger → Selbstversorger)",
+    "example_de": "Die Selbstversorgerin baut ihr Gemüse selbst an.",
+    "example_en": "The self-sufficient woman grows her own vegetables."
+  },
+  {
+    "front": "mentality",
+    "back": "die Mentalität, -en",
+    "note_id": 1784577083290,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Mentalität der Menschen hier ist offen.",
+    "example_en": "The mentality of the people here is open."
+  },
+  {
+    "front": "to confront someone with",
+    "back": "jdn. konfrontieren (mit)",
+    "note_id": 1784577083291,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "+ mit",
+    "example_de": "Der Chef konfrontierte ihn mit den Fehlern.",
+    "example_en": "The boss confronted him with the mistakes.",
+    "perfekt": "hat konfrontiert",
+    "prateritum": "konfrontierte"
+  },
+  {
+    "front": "personality / character trait",
+    "back": "das Persönlichkeitsmerkmal, -e",
+    "note_id": 1784577083292,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "= die Charaktereigenschaft, -en",
+    "example_de": "Ehrlichkeit ist ein wichtiges Persönlichkeitsmerkmal.",
+    "example_en": "Honesty is an important personality trait."
+  },
+  {
+    "front": "determination / ambition",
+    "back": "die Zielstrebigkeit",
+    "note_id": 1784577083293,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "adjective: zielstrebig",
+    "example_de": "Ihre Zielstrebigkeit führte sie zum Erfolg.",
+    "example_en": "Her determination led her to success."
+  },
+  {
+    "front": "leadership behaviour",
+    "back": "das Führungsverhalten",
+    "note_id": 1784577083294,
+    "type": "noun",
+    "gender": "das",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "mostly used in singular",
+    "example_de": "Sein Führungsverhalten motiviert das Team.",
+    "example_en": "His leadership behaviour motivates the team."
+  },
+  {
+    "front": "behaviour",
+    "back": "das Verhalten",
+    "note_id": 1784577083295,
+    "type": "noun",
+    "gender": "das",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "verb: sich verhalten",
+    "example_de": "Sein Verhalten war nicht akzeptabel.",
+    "example_en": "His behaviour was not acceptable."
+  },
+  {
+    "front": "to be distinct / pronounced",
+    "back": "ausgeprägt sein",
+    "note_id": 1784577083296,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "adjective + sein",
+    "example_de": "Ihr Sinn für Gerechtigkeit ist stark ausgeprägt.",
+    "example_en": "Her sense of justice is very pronounced."
+  },
+  {
+    "front": "study (research)",
+    "back": "die Studie, -n",
+    "note_id": 1784577083297,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "not to be confused with das Studium (university studies)",
+    "example_de": "Die Studie zeigt klare Ergebnisse.",
+    "example_en": "The study shows clear results."
+  },
+  {
+    "front": "conspicuous / noticeable",
+    "back": "auffällig",
+    "note_id": 1784577083298,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "opposite: unauffällig",
+    "example_de": "Sein auffälliges Outfit zog alle Blicke an.",
+    "example_en": "His conspicuous outfit attracted everyone's attention."
+  },
+  {
+    "front": "one-sided / biased",
+    "back": "einseitig",
+    "note_id": 1784577083299,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Der Bericht wirkt sehr einseitig.",
+    "example_en": "The report seems very one-sided."
+  },
+  {
+    "front": "technical report",
+    "back": "der Fachbericht, -e",
+    "note_id": 1784577083300,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Der Fachbericht wurde veröffentlicht.",
+    "example_en": "The technical report was published."
+  },
+  {
+    "front": "to doubt something",
+    "back": "anzweifeln",
+    "note_id": 1784577083301,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Viele zweifeln die Ergebnisse der Studie an.",
+    "example_en": "Many doubt the results of the study.",
+    "perfekt": "hat angezweifelt",
+    "prateritum": "zweifelte an"
+  },
+  {
+    "front": "over-meticulous / overly precise",
+    "back": "übergenau",
+    "note_id": 1784577083302,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "über- = over-",
+    "example_de": "Er ist bei der Arbeit übergenau.",
+    "example_en": "He is over-meticulous at work."
+  },
+  {
+    "front": "lengthy / protracted",
+    "back": "langwierig",
+    "note_id": 1784577083303,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "lang + wierig (lasting)",
+    "example_de": "Der Prozess war lang und langwierig.",
+    "example_en": "The process was long and lengthy."
+  },
+  {
+    "front": "well-founded / sound (argument)",
+    "back": "fundiert",
+    "note_id": 1784577083304,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "related noun: das Fundament",
+    "example_de": "Sie gab eine fundierte Antwort.",
+    "example_en": "She gave a well-founded answer."
+  },
+  {
+    "front": "to score points",
+    "back": "punkten",
+    "note_id": 1784577083305,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "also figurative: to impress",
+    "example_de": "Mit Humor konnte er im Gespräch punkten.",
+    "example_en": "He was able to score points in the conversation with humour.",
+    "perfekt": "hat gepunktet",
+    "prateritum": "punktete"
+  },
+  {
+    "front": "to be welcome (something is gladly seen)",
+    "back": "etwas wird/ist gern gesehen",
+    "note_id": 1784577083306,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "fixed expression",
+    "example_de": "Pünktlichkeit ist bei uns gern gesehen.",
+    "example_en": "Punctuality is welcome here."
+  },
+  {
+    "front": "to gain an advantage for yourself",
+    "back": "sich einen Vorteil verschaffen",
+    "note_id": 1784577083307,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "reflexive; der Vorteil, -e",
+    "example_de": "Durch gute Vorbereitung verschaffte sie sich einen Vorteil.",
+    "example_en": "She gained an advantage through good preparation."
+  },
+  {
+    "front": "elaborate / effortful",
+    "back": "aufwändig",
+    "note_id": 1784577083308,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "related noun: der Aufwand (effort)",
+    "example_de": "Die aufwändige Dekoration beeindruckte alle.",
+    "example_en": "The elaborate decoration impressed everyone."
+  },
+  {
+    "front": "spectacular",
+    "back": "spektakulär",
+    "note_id": 1784577083309,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Der spektakuläre Auftritt begeisterte das Publikum.",
+    "example_en": "The spectacular performance thrilled the audience."
+  },
+  {
+    "front": "original / creative (idea)",
+    "back": "originell",
+    "note_id": 1784577083310,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "false friend: not \"originell\" = from the origin, but creative/unusual",
+    "example_de": "Ihre originellen Ideen waren sehr beliebt.",
+    "example_en": "Her original ideas were very popular."
+  },
+  {
+    "front": "something always works (colloq.)",
+    "back": "etw. geht immer",
+    "note_id": 1784577083311,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "colloquial",
+    "example_de": "Ein Kaffee geht immer.",
+    "example_en": "A coffee always works."
+  },
+  {
+    "front": "facet",
+    "back": "die Facette, -n",
+    "note_id": 1784577083312,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Diese Facette des Problems wurde nicht betrachtet.",
+    "example_en": "This facet of the problem was not considered."
+  },
+  {
+    "front": "dynamic",
+    "back": "dynamisch",
+    "note_id": 1784577083313,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "related noun: die Dynamik",
+    "example_de": "Das dynamische Team arbeitet effizient.",
+    "example_en": "The dynamic team works efficiently."
+  },
+  {
+    "front": "blurry (from camera shake)",
+    "back": "verwackelt",
+    "note_id": 1784577083314,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "from verwackeln (to blur by shaking)",
+    "example_de": "Das Foto ist leider verwackelt.",
+    "example_en": "The photo is unfortunately blurry."
+  },
+  {
+    "front": "rich in detail",
+    "back": "detailreich",
+    "note_id": 1784577083315,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "das Detail, -s",
+    "example_de": "Der detailreiche Bericht war sehr informativ.",
+    "example_en": "The detailed report was very informative."
+  },
+  {
+    "front": "camera setting(s)",
+    "back": "die Kameraeinstellung, -en",
+    "note_id": 1784577083316,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Kameraeinstellung war nicht optimal.",
+    "example_en": "The camera setting was not optimal."
+  },
+  {
+    "front": "to get involved",
+    "back": "sich einbringen",
+    "note_id": 1784577083317,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "reflexive, separable; also in chapter 2 (einbringen)",
+    "example_de": "Er bringt sich aktiv in das Projekt ein.",
+    "example_en": "He gets actively involved in the project.",
+    "perfekt": "hat sich eingebracht",
+    "prateritum": "brachte sich ein"
+  },
+  {
+    "front": "to appeal (look appealing) / to irritate",
+    "back": "reizen",
+    "note_id": 1784577083318,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "context decides: die Idee reizt mich (appeals) vs. die Wunde reizen (irritate)",
+    "example_de": "Die Idee reizt mich sehr.",
+    "example_en": "The idea appeals to me very much.",
+    "perfekt": "hat gereizt",
+    "prateritum": "reizte"
+  },
+  {
+    "front": "self-presentation",
+    "back": "die Selbstpräsentation, -en",
+    "note_id": 1784577083319,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Ihre Selbstpräsentation war überzeugend.",
+    "example_en": "Her self-presentation was convincing."
+  },
+  {
+    "front": "calling / vocation",
+    "back": "die Berufung, -en",
+    "note_id": 1784577083320,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "related noun: der Beruf; also legal: appeal",
+    "example_de": "Sie folgte ihrer Berufung als Ärztin.",
+    "example_en": "She followed her calling as a doctor."
+  },
+  {
+    "front": "to pass on / communicate / convey something",
+    "back": "etw. vermitteln",
+    "note_id": 1784577083321,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "also: to mediate (a job, a flat)",
+    "example_de": "Er vermittelt komplexe Ideen sehr gut.",
+    "example_en": "He conveys complex ideas very well.",
+    "perfekt": "hat vermittelt",
+    "prateritum": "vermittelte"
+  },
+  {
+    "front": "a fulfilling/fulfilled life",
+    "back": "ein erfülltes Leben",
+    "note_id": 1784577083322,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "verb: erfüllen (to fulfill)",
+    "example_de": "Ein erfülltes Leben braucht Ziele.",
+    "example_en": "A fulfilling life needs goals."
+  },
+  {
+    "front": "fulfilling",
+    "back": "erfüllend",
+    "note_id": 1784577083323,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "present participle of erfüllen",
+    "example_de": "Die Arbeit als Lehrer ist sehr erfüllend.",
+    "example_en": "Working as a teacher is very fulfilling."
+  },
+  {
+    "front": "to realize/fulfill oneself",
+    "back": "sich (selbst) verwirklichen",
+    "note_id": 1784577083324,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "reflexive",
+    "example_de": "Sie will sich im Beruf selbst verwirklichen.",
+    "example_en": "She wants to realize herself in her career.",
+    "perfekt": "hat sich verwirklicht",
+    "prateritum": "verwirklichte sich"
+  },
+  {
+    "front": "to put something to the test",
+    "back": "etw. auf den Prüfstand stellen (= etw. hinterfragen)",
+    "note_id": 1784577083325,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "idiom; der Prüfstand, ¨-e",
+    "example_de": "Wir müssen unsere Methoden auf den Prüfstand stellen.",
+    "example_en": "We have to put our methods to the test."
+  },
+  {
+    "front": "to acquire something",
+    "back": "sich etw. aneignen",
+    "note_id": 1784577083326,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "reflexive; e.g. Wissen, Fähigkeiten aneignen",
+    "example_de": "Er eignete sich neue Fähigkeiten an.",
+    "example_en": "He acquired new skills.",
+    "perfekt": "hat sich angeeignet",
+    "prateritum": "eignete sich an"
+  },
+  {
+    "front": "to be clear about something",
+    "back": "sich über etw. (Akk.) im Klaren sein",
+    "note_id": 1784577083327,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "idiom, reflexive",
+    "example_de": "Sie ist sich über die Risiken im Klaren.",
+    "example_en": "She is clear about the risks."
+  },
+  {
+    "front": "to include / contain something",
+    "back": "beinhalten",
+    "note_id": 1784577083328,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Der Vertrag beinhaltet viele Klauseln.",
+    "example_en": "The contract contains many clauses.",
+    "perfekt": "hat beinhaltet",
+    "prateritum": "beinhaltete"
+  },
+  {
+    "front": "to quit / throw in the towel (colloq.)",
+    "back": "hinschmeißen",
+    "note_id": 1784577083329,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "separable, colloquial; literally: to throw down",
+    "example_de": "Er wollte hinschmeißen, gab aber nicht auf.",
+    "example_en": "He wanted to throw in the towel but didn't give up.",
+    "perfekt": "hat hingeschmissen",
+    "prateritum": "schmiss hin"
+  },
+  {
+    "front": "to take stock / count the cash",
+    "back": "einen Kassensturz machen",
+    "note_id": 1784577083330,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "idiom; der Kassensturz, -e",
+    "example_de": "Am Monatsende machen wir einen Kassensturz.",
+    "example_en": "At the end of the month we take stock of the cash."
+  },
+  {
+    "front": "with regard to",
+    "back": "im Hinblick auf (+ Akk.)",
+    "note_id": 1784577083331,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "prepositional phrase",
+    "example_de": "Im Hinblick auf die Zukunft müssen wir sparen.",
+    "example_en": "With regard to the future we have to save."
+  },
+  {
+    "front": "to earn/deserve recognition",
+    "back": "Anerkennung verdienen",
+    "note_id": 1784577083332,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "die Anerkennung (kein Pl.)",
+    "example_de": "Sie verdient Anerkennung für ihre Arbeit.",
+    "example_en": "She deserves recognition for her work."
+  },
+  {
+    "front": "staff shortage",
+    "back": "der Personalmangel",
+    "note_id": 1784577083333,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "das Personal + der Mangel",
+    "example_de": "Der Personalmangel führt zu Überstunden.",
+    "example_en": "The staff shortage leads to overtime."
+  },
+  {
+    "front": "career change / lateral entry into a field",
+    "back": "der Quereinstieg, -e",
+    "note_id": 1784577083334,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "person: der/die Quereinsteiger/in",
+    "example_de": "Der Quereinstieg in den IT-Bereich war schwierig.",
+    "example_en": "The career change into the IT field was difficult."
+  },
+  {
+    "front": "to unite",
+    "back": "vereinen",
+    "note_id": 1784577083335,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "verb"
+    ],
+    "notes": "also reflexive: sich vereinen",
+    "example_de": "Die beiden Gruppen vereinen sich zu einem Team.",
+    "example_en": "The two groups unite into one team.",
+    "perfekt": "hat vereint",
+    "prateritum": "vereinte"
+  },
+  {
+    "front": "to go without saying / be a matter of course",
+    "back": "eine Selbstverständlichkeit sein",
+    "note_id": 1784577083336,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "die Selbstverständlichkeit, -en",
+    "example_de": "Pünktlichkeit ist hier eine Selbstverständlichkeit.",
+    "example_en": "Punctuality goes without saying here."
+  },
+  {
+    "front": "considerable",
+    "back": "erheblich",
+    "note_id": 1784577083337,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Die erheblichen Kosten waren nicht geplant.",
+    "example_en": "The considerable costs were not planned."
+  },
+  {
+    "front": "low-wage sector",
+    "back": "der Niedriglohnsektor, -en",
+    "note_id": 1784577083338,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "niedrig + der Lohn + der Sektor",
+    "example_de": "Viele arbeiten im Niedriglohnsektor.",
+    "example_en": "Many people work in the low-wage sector."
+  },
+  {
+    "front": "employment / gainful employment",
+    "back": "die Erwerbstätigkeit, -en",
+    "note_id": 1784577083339,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "adjective: erwerbstätig (employed)",
+    "example_de": "Die Erwerbstätigkeit der Frauen steigt.",
+    "example_en": "Female employment is rising."
+  },
+  {
+    "front": "earning opportunity",
+    "back": "die Verdienstmöglichkeit, -en",
+    "note_id": 1784577083340,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "verb: verdienen (to earn)",
+    "example_de": "Es gibt viele Verdienstmöglichkeiten.",
+    "example_en": "There are many earning opportunities."
+  },
+  {
+    "front": "to be accessible / available / approachable",
+    "back": "zugänglich sein",
+    "note_id": 1784577083341,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "phrase"
+    ],
+    "notes": "adjective + sein; der Zugang (access)",
+    "example_de": "Die Informationen sind für alle zugänglich.",
+    "example_en": "The information is accessible to everyone."
+  },
+  {
+    "front": "committee / board of directors",
+    "back": "der Vorstand, ¨-e",
+    "note_id": 1784577083342,
+    "type": "noun",
+    "gender": "der",
+    "plural": "¨-e",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "plural: die Vorstände",
+    "example_de": "Der Vorstand trifft die Entscheidungen.",
+    "example_en": "The board of directors makes the decisions."
+  },
+  {
+    "front": "underrepresented",
+    "back": "unterrepräsentiert",
+    "note_id": 1784577083343,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "unter- + repräsentiert",
+    "example_de": "Frauen sind in Führungspositionen unterrepräsentiert.",
+    "example_en": "Women are underrepresented in leadership positions."
+  },
+  {
+    "front": "gender-specific",
+    "back": "geschlechtsspezifisch",
+    "note_id": 1784577083344,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "das Geschlecht + spezifisch",
+    "example_de": "Es gibt geschlechtsspezifische Unterschiede.",
+    "example_en": "There are gender-specific differences."
+  },
+  {
+    "front": "gross / net (amount)",
+    "back": "brutto / netto",
+    "note_id": 1784577083345,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "adjective"
+    ],
+    "notes": "das Bruttogehalt / das Nettogehalt",
+    "example_de": "Mein Bruttogehalt ist höher als mein Nettogehalt.",
+    "example_en": "My gross salary is higher than my net salary."
+  },
+  {
+    "front": "full-day childcare",
+    "back": "die Ganztagsbetreuung",
+    "note_id": 1784577083346,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 3,
+    "tags": [
+      "chapter-3",
+      "noun"
+    ],
+    "notes": "ganztags + die Betreuung",
+    "example_de": "Die Ganztagsbetreuung ist für berufstätige Eltern wichtig.",
+    "example_en": "Full-day childcare is important for working parents."
+  }
+]

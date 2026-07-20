@@ -1,0 +1,1352 @@
+[
+  {
+    "front": "to give/gain trust",
+    "back": "Vertrauen schenken/gewinnen",
+    "note_id": 1784577083110,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "schenken = to give, gewinnen = to gain/win",
+    "example_de": "Der Therapeut gewann schnell das Vertrauen seiner Patienten.",
+    "example_en": "The therapist quickly gained his patients' trust."
+  },
+  {
+    "front": "to entrust somebody with something",
+    "back": "jdm. etw. anvertrauen",
+    "note_id": 1784577083111,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable, + Dat.",
+    "example_de": "Sie vertraute ihrer besten Freundin ein Geheimnis an.",
+    "example_en": "She entrusted a secret to her best friend.",
+    "perfekt": "hat anvertraut",
+    "prateritum": "vertraute an"
+  },
+  {
+    "front": "to weigh something up (advantages/disadvantages)",
+    "back": "etw. abwägen",
+    "note_id": 1784577083112,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Vor der Entscheidung sollte man die Vor- und Nachteile abwägen.",
+    "example_en": "Before deciding, one should weigh up the pros and cons.",
+    "perfekt": "hat abgewogen",
+    "prateritum": "wog ab"
+  },
+  {
+    "front": "interpersonal",
+    "back": "zwischenmenschlich",
+    "note_id": 1784577083113,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Zwischenmenschliche Beziehungen brauchen Vertrauen.",
+    "example_en": "Interpersonal relationships need trust."
+  },
+  {
+    "front": "elusive / hard to understand",
+    "back": "schwer fassbar",
+    "note_id": 1784577083114,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "adjective phrase",
+    "example_de": "Der Begriff Glück ist für viele schwer fassbar.",
+    "example_en": "The concept of happiness is elusive for many people."
+  },
+  {
+    "front": "to put oneself into others' hands",
+    "back": "sich in die Hände von anderen begeben",
+    "note_id": 1784577083115,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "idiom, reflexive",
+    "example_de": "Als Obdachloser musste er sich in die Hände von anderen begeben.",
+    "example_en": "As a homeless person, he had to put himself into the hands of others."
+  },
+  {
+    "front": "the newborn",
+    "back": "das Neugeborene, -n",
+    "note_id": 1784577083116,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-n",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "adjectival noun (declined like an adjective)",
+    "example_de": "Das Neugeborene schläft fast den ganzen Tag.",
+    "example_en": "The newborn sleeps almost all day."
+  },
+  {
+    "front": "to survive",
+    "back": "überleben",
+    "note_id": 1784577083117,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Ohne Wasser kann ein Mensch nur wenige Tage überleben.",
+    "example_en": "Without water, a person can only survive a few days.",
+    "perfekt": "hat überlebt",
+    "prateritum": "überlebte"
+  },
+  {
+    "front": "to overcome",
+    "back": "überwinden",
+    "note_id": 1784577083118,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "irregular: überwand, hat überwunden",
+    "example_de": "Sie hat ihre Angst vor der Dunkelheit überwunden.",
+    "example_en": "She overcame her fear of the dark.",
+    "perfekt": "hat überwunden",
+    "prateritum": "überwand"
+  },
+  {
+    "front": "to leave a mark on someone / to shape someone",
+    "back": "jdn. prägen",
+    "note_id": 1784577083119,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Die Kindheit prägt einen Menschen fürs ganze Leben.",
+    "example_en": "Childhood leaves a mark on a person for their whole life.",
+    "perfekt": "hat geprägt",
+    "prateritum": "prägte"
+  },
+  {
+    "front": "to grow up",
+    "back": "heranwachsen",
+    "note_id": 1784577083120,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable; wächst heran, ist herangewachsen",
+    "example_de": "Kinder, die in Armut heranwachsen, haben es oft schwerer.",
+    "example_en": "Children who grow up in poverty often have a harder time.",
+    "perfekt": "ist herangewachsen",
+    "prateritum": "wuchs heran"
+  },
+  {
+    "front": "security / feeling of safety",
+    "back": "die Geborgenheit",
+    "note_id": 1784577083121,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "no plural (abstract noun)",
+    "example_de": "Die Familie gibt dem Kind Geborgenheit.",
+    "example_en": "The family gives the child a sense of security."
+  },
+  {
+    "front": "to encourage/support somebody",
+    "back": "jdn. bestärken",
+    "note_id": 1784577083122,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "often: jdn. in etw. (Dat.) bestärken",
+    "example_de": "Seine Eltern bestärkten ihn darin, seinen Weg zu gehen.",
+    "example_en": "His parents encouraged him to follow his path.",
+    "perfekt": "hat bestärkt",
+    "prateritum": "bestärkte"
+  },
+  {
+    "front": "to tackle something",
+    "back": "etw. anpacken",
+    "note_id": 1784577083123,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Wir müssen das Problem jetzt endlich anpacken.",
+    "example_en": "We finally have to tackle the problem now.",
+    "perfekt": "hat angepackt",
+    "prateritum": "packte an"
+  },
+  {
+    "front": "to face something",
+    "back": "sich etw. stellen",
+    "note_id": 1784577083124,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "reflexive",
+    "example_de": "Er musste sich der Wahrheit stellen.",
+    "example_en": "He had to face the truth.",
+    "perfekt": "hat gestellt",
+    "prateritum": "stellte"
+  },
+  {
+    "front": "to struggle with / have difficulty with",
+    "back": "sich schwertun (mit)",
+    "note_id": 1784577083125,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "reflexive, separable; original file translation (inaccessible/accessible) corrected",
+    "example_de": "Ich tue mich schwer mit der deutschen Grammatik.",
+    "example_en": "I struggle with German grammar.",
+    "perfekt": "hat schwergetan",
+    "prateritum": "tat schwer"
+  },
+  {
+    "front": "solid / serious / severe",
+    "back": "massiv",
+    "note_id": 1784577083126,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Der Sturm hat massive Schäden verursacht.",
+    "example_en": "The storm caused severe damage."
+  },
+  {
+    "front": "to protect/defend or give shelter to someone",
+    "back": "jdn. beschützen",
+    "note_id": 1784577083127,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "often: jdn. vor etw. (Dat.) beschützen",
+    "example_de": "Eltern wollen ihre Kinder vor Gefahren beschützen.",
+    "example_en": "Parents want to protect their children from danger.",
+    "perfekt": "hat beschützt",
+    "prateritum": "beschützte"
+  },
+  {
+    "front": "to open up to someone",
+    "back": "sich jdm. öffnen",
+    "note_id": 1784577083128,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "reflexive, + Dat.",
+    "example_de": "Es fiel ihr schwer, sich anderen zu öffnen.",
+    "example_en": "She found it hard to open up to others.",
+    "perfekt": "hat geöffnet",
+    "prateritum": "öffnete"
+  },
+  {
+    "front": "to freeze to death",
+    "back": "erfrieren",
+    "note_id": 1784577083129,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "irregular: erfror, ist erfroren",
+    "example_de": "Ohne warme Kleidung kann man im Winter draußen erfrieren.",
+    "example_en": "Without warm clothes you can freeze to death outside in winter.",
+    "perfekt": "ist erfroren",
+    "prateritum": "erfror"
+  },
+  {
+    "front": "homeless",
+    "back": "obdachlos",
+    "note_id": 1784577083130,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "related noun: der/die Obdachlose, -n",
+    "example_de": "Nach dem Brand waren viele Familien obdachlos.",
+    "example_en": "After the fire, many families were homeless."
+  },
+  {
+    "front": "to have an open ear (to be willing to listen)",
+    "back": "ein offenes Ohr haben",
+    "note_id": 1784577083131,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "idiom",
+    "example_de": "Ein guter Freund hat immer ein offenes Ohr für dich.",
+    "example_en": "A good friend always has an open ear for you."
+  },
+  {
+    "front": "establishment / institution",
+    "back": "die Einrichtung, -en",
+    "note_id": 1784577083132,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Einrichtung bietet Obdachlosen Essen und Schlafplätze.",
+    "example_en": "The institution offers homeless people food and beds."
+  },
+  {
+    "front": "to keep your eyes on something",
+    "back": "etw. im Auge behalten",
+    "note_id": 1784577083133,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "idiom",
+    "example_de": "Behalte dein Ziel immer im Auge.",
+    "example_en": "Always keep your goal in sight."
+  },
+  {
+    "front": "in need / needy",
+    "back": "bedürftig",
+    "note_id": 1784577083134,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "related noun: der/die Bedürftige, -n",
+    "example_de": "Die Organisation hilft bedürftigen Familien.",
+    "example_en": "The organization helps needy families."
+  },
+  {
+    "front": "to lend a hand to someone",
+    "back": "jdm. unter die Arme greifen",
+    "note_id": 1784577083135,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "idiom, + Dat.",
+    "example_de": "Nach dem Unfall griffen ihm seine Freunde unter die Arme.",
+    "example_en": "After the accident, his friends lent him a hand."
+  },
+  {
+    "front": "the affected person(s)",
+    "back": "der/die Betroffene, -n",
+    "note_id": 1784577083136,
+    "type": "noun",
+    "gender": "der/die",
+    "plural": "-n",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "adjectival noun (declined like an adjective)",
+    "example_de": "Die Betroffenen bekamen Unterstützung vom Staat.",
+    "example_en": "Those affected received support from the state."
+  },
+  {
+    "front": "to provide/supply someone with",
+    "back": "jdn. versorgen (mit)",
+    "note_id": 1784577083137,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "+ mit",
+    "example_de": "Die Helfer versorgten die Flüchtlinge mit Essen.",
+    "example_en": "The helpers supplied the refugees with food.",
+    "perfekt": "hat versorgt",
+    "prateritum": "versorgte"
+  },
+  {
+    "front": "social worker / streetworker",
+    "back": "der/die Streetworker/in, -/innen",
+    "note_id": 1784577083138,
+    "type": "noun",
+    "gender": "der/die",
+    "plural": "-/innen",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "masc. pl. die Streetworker, fem. pl. die Streetworkerinnen",
+    "example_de": "Der Streetworker spricht regelmäßig mit Jugendlichen auf der Straße.",
+    "example_en": "The streetworker regularly talks to young people on the street."
+  },
+  {
+    "front": "to seek out a conversation",
+    "back": "das Gespräch suchen",
+    "note_id": 1784577083139,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "",
+    "example_de": "Nach dem Streit suchte sie das Gespräch mit ihm.",
+    "example_en": "After the argument, she sought out a conversation with him."
+  },
+  {
+    "front": "to make something one's mission",
+    "back": "sich etw. zur Aufgabe machen",
+    "note_id": 1784577083140,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "idiom, reflexive",
+    "example_de": "Sie hat es sich zur Aufgabe gemacht, Obdachlosen zu helfen.",
+    "example_en": "She has made it her mission to help homeless people."
+  },
+  {
+    "front": "to cope with / overcome",
+    "back": "etw. bewältigen",
+    "note_id": 1784577083141,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Gemeinsam kann man jede Krise bewältigen.",
+    "example_en": "Together you can overcome any crisis.",
+    "perfekt": "hat bewältigt",
+    "prateritum": "bewältigte"
+  },
+  {
+    "front": "to guarantee something",
+    "back": "etw. gewährleisten",
+    "note_id": 1784577083142,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Der Staat muss die Sicherheit seiner Bürger gewährleisten.",
+    "example_en": "The state must guarantee the safety of its citizens.",
+    "perfekt": "hat gewährleistet",
+    "prateritum": "gewährleistete"
+  },
+  {
+    "front": "to measure something",
+    "back": "etw. messen",
+    "note_id": 1784577083143,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "irregular: misst, maß, hat gemessen",
+    "example_de": "Man kann Glück nicht mit Geld messen.",
+    "example_en": "You cannot measure happiness with money.",
+    "perfekt": "hat gemessen",
+    "prateritum": "maß"
+  },
+  {
+    "front": "to watch/look after",
+    "back": "aufpassen",
+    "note_id": 1784577083144,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable; aufpassen auf + Akk.",
+    "example_de": "Meine Schwester passt heute auf die Kinder auf.",
+    "example_en": "My sister is looking after the children today.",
+    "perfekt": "hat aufgepasst",
+    "prateritum": "passte auf"
+  },
+  {
+    "front": "waterproof",
+    "back": "wasserdicht",
+    "note_id": 1784577083145,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Meine neue Jacke ist komplett wasserdicht.",
+    "example_en": "My new jacket is completely waterproof."
+  },
+  {
+    "front": "stroke of fate",
+    "back": "der Schicksalsschlag, ¨-e",
+    "note_id": 1784577083146,
+    "type": "noun",
+    "gender": "der",
+    "plural": "¨-e",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "plural: die Schicksalsschläge",
+    "example_de": "Der Tod seines Vaters war ein schwerer Schicksalsschlag.",
+    "example_en": "His father's death was a heavy stroke of fate."
+  },
+  {
+    "front": "to notice",
+    "back": "merken",
+    "note_id": 1784577083147,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "sich (Dat.) etw. merken = to memorize",
+    "example_de": "Ich habe sofort gemerkt, dass etwas nicht stimmt.",
+    "example_en": "I immediately noticed that something was wrong.",
+    "perfekt": "hat gemerkt",
+    "prateritum": "merkte"
+  },
+  {
+    "front": "one's own home",
+    "back": "das Eigenheim, -e",
+    "note_id": 1784577083148,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Viele Familien sparen Jahre für ein Eigenheim.",
+    "example_en": "Many families save for years for their own home."
+  },
+  {
+    "front": "cooperative, co-op",
+    "back": "die Genossenschaft, -en",
+    "note_id": 1784577083149,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Wohnungsgenossenschaft bietet günstige Mieten.",
+    "example_en": "The housing co-op offers affordable rents."
+  },
+  {
+    "front": "living space",
+    "back": "der Wohnraum",
+    "note_id": 1784577083150,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "mostly used in singular",
+    "example_de": "In Großstädten ist Wohnraum knapp und teuer.",
+    "example_en": "In big cities, living space is scarce and expensive."
+  },
+  {
+    "front": "relatively",
+    "back": "verhältnismäßig",
+    "note_id": 1784577083151,
+    "type": "adverb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adverb"
+    ],
+    "notes": "",
+    "example_de": "Die Miete ist für die Lage verhältnismäßig günstig.",
+    "example_en": "The rent is relatively cheap for the location."
+  },
+  {
+    "front": "community / municipality",
+    "back": "die Gemeinde, -n",
+    "note_id": 1784577083152,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Gemeinde baut neue Sozialwohnungen.",
+    "example_en": "The municipality is building new social housing."
+  },
+  {
+    "front": "real estate / property",
+    "back": "die Immobilie, -n",
+    "note_id": 1784577083153,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Immobilien in der Stadt sind eine gute Investition.",
+    "example_en": "Property in the city is a good investment."
+  },
+  {
+    "front": "highest possible",
+    "back": "höchstmöglich",
+    "note_id": 1784577083154,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Wir bieten die höchstmögliche Qualität.",
+    "example_en": "We offer the highest possible quality."
+  },
+  {
+    "front": "one's own personal needs (landlord's own use)",
+    "back": "der Eigenbedarf",
+    "note_id": 1784577083155,
+    "type": "noun",
+    "gender": "der",
+    "plural": "kein Pl.",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "typical in tenancy law: Kündigung wegen Eigenbedarfs",
+    "example_de": "Der Vermieter kündigte die Wohnung wegen Eigenbedarfs.",
+    "example_en": "The landlord terminated the flat because he needed it for his own use."
+  },
+  {
+    "front": "dismissal notice period / period of notice",
+    "back": "die Kündigungsfrist, -en",
+    "note_id": 1784577083156,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Kündigungsfrist beträgt drei Monate.",
+    "example_en": "The notice period is three months."
+  },
+  {
+    "front": "in public ownership / publicly owned",
+    "back": "in öffentlicher Hand",
+    "note_id": 1784577083157,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "fixed expression",
+    "example_de": "Die Wohnungsgesellschaft ist in öffentlicher Hand.",
+    "example_en": "The housing company is in public ownership."
+  },
+  {
+    "front": "to withdraw / take away",
+    "back": "entziehen",
+    "note_id": 1784577083158,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "irregular: entzog, hat entzogen; jdm. etw. entziehen",
+    "example_de": "Der Richter entzog ihm den Führerschein.",
+    "example_en": "The judge withdrew his driving licence.",
+    "perfekt": "hat entzogen",
+    "prateritum": "entzog"
+  },
+  {
+    "front": "speculative",
+    "back": "spekulativ",
+    "note_id": 1784577083159,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Diese Prognose ist sehr spekulativ.",
+    "example_en": "This forecast is very speculative."
+  },
+  {
+    "front": "the regulations",
+    "back": "die Regularien (nur Pl.)",
+    "note_id": 1784577083160,
+    "type": "noun",
+    "gender": "die",
+    "plural": "nur Pl.",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "plural-only noun",
+    "example_de": "Strenge Regularien sollen die Mietpreise bremsen.",
+    "example_en": "Strict regulations are meant to slow down rent prices."
+  },
+  {
+    "front": "lifetime right of residence",
+    "back": "das lebenslange Wohnrecht",
+    "note_id": 1784577083161,
+    "type": "noun",
+    "gender": "das",
+    "plural": "-e",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "plural (rare): lebenslange Wohnrechte",
+    "example_de": "Die Mieter bekamen ein lebenslanges Wohnrecht.",
+    "example_en": "The tenants received a lifetime right of residence."
+  },
+  {
+    "front": "profit-orientated",
+    "back": "gewinnorientiert",
+    "note_id": 1784577083162,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Ein gewinnorientiertes Unternehmen denkt zuerst an den Profit.",
+    "example_en": "A profit-oriented company thinks about profit first."
+  },
+  {
+    "front": "to keep something low",
+    "back": "etw. niedrig halten",
+    "note_id": 1784577083163,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "",
+    "example_de": "Die Genossenschaft hält die Mieten niedrig.",
+    "example_en": "The co-op keeps rents low."
+  },
+  {
+    "front": "running costs / recurring costs",
+    "back": "die laufenden Kosten (nur Pl.)",
+    "note_id": 1784577083164,
+    "type": "noun",
+    "gender": "die",
+    "plural": "nur Pl.",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "plural-only in this meaning",
+    "example_de": "Neben der Miete kommen noch laufende Kosten dazu.",
+    "example_en": "On top of the rent there are running costs."
+  },
+  {
+    "front": "to cover something (cover costs) through/with",
+    "back": "etw. abdecken (durch)",
+    "note_id": 1784577083165,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Die Mieteinnahmen decken die laufenden Kosten ab.",
+    "example_en": "Rental income covers the running costs.",
+    "perfekt": "hat abgedeckt",
+    "prateritum": "deckte ab"
+  },
+  {
+    "front": "much sought after / in demand",
+    "back": "begehrt",
+    "note_id": 1784577083166,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Wohnungen in dieser Gegend sind sehr begehrt.",
+    "example_en": "Flats in this area are in high demand."
+  },
+  {
+    "front": "not full / underoccupied",
+    "back": "unterbelegt",
+    "note_id": 1784577083167,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "also used for courses, hotels",
+    "example_de": "Viele Sozialwohnungen stehen leer oder sind unterbelegt.",
+    "example_en": "Many social housing units are empty or not fully occupied."
+  },
+  {
+    "front": "the percentage / proportion / share",
+    "back": "der Anteil, -e",
+    "note_id": 1784577083168,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-e",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "der Anteil an etw. (Dat.)",
+    "example_de": "Der Anteil der Sozialwohnungen sinkt.",
+    "example_en": "The proportion of social housing is falling."
+  },
+  {
+    "front": "punchline / point (of a joke)",
+    "back": "die Pointe, -n",
+    "note_id": 1784577083169,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-n",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "original file said \"the point\" — die Pointe is specifically the punchline",
+    "example_de": "Die Pointe des Witzes verstand niemand.",
+    "example_en": "Nobody understood the punchline of the joke."
+  },
+  {
+    "front": "expressing opinions",
+    "back": "meinungsäußernd",
+    "note_id": 1784577083170,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "e.g. a meinungsäußernder Text = opinion piece",
+    "example_de": "Der meinungsäußernde Text kritisiert die Wohnungspolitik.",
+    "example_en": "The opinion piece criticises housing policy."
+  },
+  {
+    "front": "exaggerated",
+    "back": "überspitzt",
+    "note_id": 1784577083171,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Der Komiker stellte die Situation überspitzt dar.",
+    "example_en": "The comedian presented the situation in an exaggerated way."
+  },
+  {
+    "front": "to dam something up / to bottle something up",
+    "back": "aufstauen",
+    "note_id": 1784577083172,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable; often reflexive: sich aufstauen",
+    "example_de": "Wut staut sich auf, wenn man nie darüber spricht.",
+    "example_en": "Anger bottles up if you never talk about it.",
+    "perfekt": "hat aufgestaut",
+    "prateritum": "staute auf"
+  },
+  {
+    "front": "to come into play / become involved",
+    "back": "ins Spiel kommen",
+    "note_id": 1784577083173,
+    "type": "phrase",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "phrase"
+    ],
+    "notes": "idiom",
+    "example_de": "Bei der Wohnungssuche kommen viele Faktoren ins Spiel.",
+    "example_en": "Many factors come into play when looking for a flat."
+  },
+  {
+    "front": "to curse or swear",
+    "back": "fluchen",
+    "note_id": 1784577083174,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Als die Miete erhöht wurde, fluchte er laut.",
+    "example_en": "When the rent was raised, he cursed loudly.",
+    "perfekt": "hat geflucht",
+    "prateritum": "fluchte"
+  },
+  {
+    "front": "mediator",
+    "back": "der/die Mediator/in, -en/innen",
+    "note_id": 1784577083175,
+    "type": "noun",
+    "gender": "der/die",
+    "plural": "-en/innen",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "masc. pl. die Mediatoren, fem. pl. die Mediatorinnen",
+    "example_de": "Der Mediator half den Nachbarn bei ihrem Streit.",
+    "example_en": "The mediator helped the neighbours with their dispute."
+  },
+  {
+    "front": "argument / quarrel / dispute",
+    "back": "die Streitigkeit, -en",
+    "note_id": 1784577083176,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Die Streitigkeit zwischen den Nachbarn dauerte Monate.",
+    "example_en": "The dispute between the neighbours lasted months."
+  },
+  {
+    "front": "curiosity",
+    "back": "die Neugier",
+    "note_id": 1784577083177,
+    "type": "noun",
+    "gender": "die",
+    "plural": "kein Pl.",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "no plural (abstract noun)",
+    "example_de": "Aus reiner Neugier fragte sie nach dem Preis.",
+    "example_en": "Out of pure curiosity she asked about the price."
+  },
+  {
+    "front": "mediator / arbitrator",
+    "back": "der/die Streitschlichter/in, -/innen",
+    "note_id": 1784577083178,
+    "type": "noun",
+    "gender": "der/die",
+    "plural": "-/innen",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "masc. pl. die Streitschlichter, fem. pl. die Streitschlichterinnen",
+    "example_de": "Die Streitschlichterin half den beiden Schülern, sich zu vertragen.",
+    "example_en": "The mediator helped the two students make up."
+  },
+  {
+    "front": "to smoulder",
+    "back": "schwelen",
+    "note_id": 1784577083179,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "also figurative: ein Konflikt schwelt",
+    "example_de": "Der Konflikt schwelte schon lange, bevor er offen ausbrach.",
+    "example_en": "The conflict had been smouldering for a long time before it openly erupted.",
+    "perfekt": "hat geschwelt",
+    "prateritum": "schwelte"
+  },
+  {
+    "front": "to degenerate into something / get out of hand",
+    "back": "ausarten",
+    "note_id": 1784577083180,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "separable",
+    "example_de": "Die Diskussion artete in einen lauten Streit aus.",
+    "example_en": "The discussion degenerated into a loud argument.",
+    "perfekt": "ist ausgeartet",
+    "prateritum": "artete aus"
+  },
+  {
+    "front": "the attempt at a conversation",
+    "back": "der Gesprächsversuch, -e",
+    "note_id": 1784577083181,
+    "type": "noun",
+    "gender": "der",
+    "plural": "-e",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Jeder Gesprächsversuch scheiterte an ihrem Schweigen.",
+    "example_en": "Every attempt at conversation failed because of her silence."
+  },
+  {
+    "front": "to settle / mediate",
+    "back": "schlichten",
+    "note_id": 1784577083182,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "",
+    "example_de": "Die Lehrerin schlichtete den Streit zwischen den Schülern.",
+    "example_en": "The teacher settled the dispute between the students.",
+    "perfekt": "hat geschlichtet",
+    "prateritum": "schlichtete"
+  },
+  {
+    "front": "difference of opinion / disagreement",
+    "back": "die Meinungsverschiedenheit, -en",
+    "note_id": 1784577083183,
+    "type": "noun",
+    "gender": "die",
+    "plural": "-en",
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "noun"
+    ],
+    "notes": "",
+    "example_de": "Meinungsverschiedenheiten gehören zu jeder Partnerschaft.",
+    "example_en": "Differences of opinion are part of every relationship."
+  },
+  {
+    "front": "impartial",
+    "back": "unparteiisch",
+    "note_id": 1784577083184,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Ein Schlichter muss unparteiisch bleiben.",
+    "example_en": "A mediator must remain impartial."
+  },
+  {
+    "front": "appreciative / dignified",
+    "back": "würdigend",
+    "note_id": 1784577083185,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "present participle of würdigen (to appreciate)",
+    "example_de": "Er sprach in würdigendem Ton über ihre Arbeit.",
+    "example_en": "He spoke about her work in an appreciative tone."
+  },
+  {
+    "front": "appreciative / valuing",
+    "back": "wertschätzend",
+    "note_id": 1784577083186,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "from die Wertschätzung (appreciation)",
+    "example_de": "Ein wertschätzender Umgang stärkt das Team.",
+    "example_en": "Appreciative interaction strengthens the team."
+  },
+  {
+    "front": "sensitive / empathetic",
+    "back": "einfühlsam",
+    "note_id": 1784577083187,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "",
+    "example_de": "Der Therapeut reagierte einfühlsam auf ihre Probleme.",
+    "example_en": "The therapist responded empathetically to her problems."
+  },
+  {
+    "front": "discreet / secluded",
+    "back": "verschwiegen",
+    "note_id": 1784577083188,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "related noun: die Verschwiegenheit (discretion)",
+    "example_de": "Der Berater ist sehr verschwiegen mit Informationen.",
+    "example_en": "The advisor is very discreet with information."
+  },
+  {
+    "front": "to describe",
+    "back": "schildern",
+    "note_id": 1784577083189,
+    "type": "verb",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "verb"
+    ],
+    "notes": "original file translation (\"to shield\") removed — schildern only means to describe",
+    "example_de": "Der Zeuge schilderte den Unfall sehr genau.",
+    "example_en": "The witness described the accident in great detail.",
+    "perfekt": "hat geschildert",
+    "prateritum": "schilderte"
+  },
+  {
+    "front": "acceptable",
+    "back": "annehmbar",
+    "note_id": 1784577083190,
+    "type": "adjective",
+    "gender": null,
+    "plural": null,
+    "chapter": 1,
+    "tags": [
+      "chapter-1",
+      "adjective"
+    ],
+    "notes": "from annehmen (to accept)",
+    "example_de": "Sein Angebot war für beide Seiten annehmbar.",
+    "example_en": "His offer was acceptable to both sides."
+  }
+]
