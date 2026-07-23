@@ -159,14 +159,24 @@ App.screens.overview = (function () {
               }).join('') +
             '</div>' +
           '</div>' +
-          '<div class="tag-group">' +
-            '<span class="tag-group-label">Wortarten</span>' +
-            '<div class="tag-chips">' +
-              App.Data.typeTags.map(function (t) {
-                return tagChip(t, deselected.indexOf(t) === -1);
-              }).join('') +
-            '</div>' +
-          '</div>' +
+           '<div class="tag-group">' +
+             '<span class="tag-group-label">Wortarten</span>' +
+             '<div class="tag-chips">' +
+               App.Data.typeTags.map(function (t) {
+                 return tagChip(t, deselected.indexOf(t) === -1);
+               }).join('') +
+             '</div>' +
+           '</div>' +
+           (App.Data.miscTags.length > 0
+             ? '<div class="tag-group">' +
+                 '<span class="tag-group-label">Sonstiges</span>' +
+                 '<div class="tag-chips">' +
+                   App.Data.miscTags.map(function (t) {
+                     return tagChip(t, deselected.indexOf(t) === -1);
+                   }).join('') +
+                 '</div>' +
+               '</div>'
+             : '') +
         '</div>' +
       '</details>' +
 

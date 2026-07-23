@@ -1,7 +1,7 @@
 /* =========================================================================
  * data.js — thin accessor around the baked-in vocabulary (vocab-data.js).
  *
- * Every card carries two tags (e.g. ["chapter-1", "noun"]). The filter
+ * Every card carries a tags array (e.g. ["chapter-1", "noun"]). The filter
  * model is exclusion-based: a card is visible iff NONE of its tags are in
  * the deselected set. Exposes window.App.Data.
  * ========================================================================= */
@@ -19,9 +19,12 @@ App.Data = (function () {
     card.tags.forEach(function (t) { tagSet[t] = true; });
   });
 
+  var TYPE_TAGS = { noun: true, verb: true, adjective: true, adverb: true, phrase: true };
+
   var allTags = Object.keys(tagSet).sort();
   var chapterTags = allTags.filter(function (t) { return t.indexOf('chapter-') === 0; });
-  var typeTags = allTags.filter(function (t) { return t.indexOf('chapter-') !== 0; });
+  var typeTags = allTags.filter(function (t) { return TYPE_TAGS[t]; });
+  var miscTags = allTags.filter(function (t) { return t.indexOf('chapter-') !== 0 && !TYPE_TAGS[t]; });
 
   // Cards that survive the tag filter (deselected = array of tag strings).
   function forSelection(deselected) {
@@ -50,6 +53,7 @@ App.Data = (function () {
     allTags: allTags,
     chapterTags: chapterTags,
     typeTags: typeTags,
+    miscTags: miscTags,
     forSelection: forSelection,
     typeLabel: typeLabel
   };

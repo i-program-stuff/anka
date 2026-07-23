@@ -51,7 +51,9 @@ App.screens.practice = (function () {
   function chipsHtml(card) {
     var html = '<div class="chips">';
     html += '<span class="chip-static chip-type">' + App.Data.typeLabel(card.type) + '</span>';
-    html += '<span class="chip-static">Kapitel ' + card.chapter + '</span>';
+    if (card.chapter) {
+      html += '<span class="chip-static">Kapitel ' + card.chapter + '</span>';
+    }
     if (card.gender) {
       html += '<span class="chip-static chip-gender-' + genderKey(card.gender) + '">' +
               card.gender + '</span>';
@@ -166,7 +168,6 @@ App.screens.practice = (function () {
   };
 
   function onKey(ev) {
-      console.log('key', ev.key, 'flipped', session && session.flipped);
     if (!session) return;
     if (ev.key === ' ' || ev.key === 'Enter') {
       ev.preventDefault();
